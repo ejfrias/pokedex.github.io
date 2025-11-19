@@ -1,0 +1,314 @@
+{
+  "id": 943,
+  "name": "mabosstiff",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/943.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/943.png",
+  "types": [
+    "dark"
+  ],
+  "height": 1.1,
+  "weight": 61,
+  "stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 90,
+    "specialAttack": 60,
+    "specialDefense": 70,
+    "speed": 85,
+    "total": 505
+  },
+  "abilities": [
+    {
+      "name": "intimidate",
+      "isHidden": false
+    },
+    {
+      "name": "guard-dog",
+      "isHidden": false
+    },
+    {
+      "name": "stakeout",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "bug",
+      "fairy",
+      "fighting"
+    ],
+    "resistances": [
+      "dark",
+      "ghost"
+    ],
+    "immunities": [
+      "psychic"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "maschiff",
+      "id": 942
+    },
+    {
+      "name": "mabosstiff",
+      "id": 943
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "comeuppance",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/894/"
+      },
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "leer",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/43/"
+      },
+      {
+        "name": "scary-face",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "lick",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/122/"
+      },
+      {
+        "name": "snarl",
+        "level": 7,
+        "url": "https://pokeapi.co/api/v2/move/555/"
+      },
+      {
+        "name": "hone-claws",
+        "level": 10,
+        "url": "https://pokeapi.co/api/v2/move/468/"
+      },
+      {
+        "name": "bite",
+        "level": 14,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "roar",
+        "level": 18,
+        "url": "https://pokeapi.co/api/v2/move/46/"
+      },
+      {
+        "name": "headbutt",
+        "level": 22,
+        "url": "https://pokeapi.co/api/v2/move/29/"
+      },
+      {
+        "name": "payback",
+        "level": 26,
+        "url": "https://pokeapi.co/api/v2/move/371/"
+      },
+      {
+        "name": "crunch",
+        "level": 34,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "swagger",
+        "level": 39,
+        "url": "https://pokeapi.co/api/v2/move/207/"
+      },
+      {
+        "name": "reversal",
+        "level": 43,
+        "url": "https://pokeapi.co/api/v2/move/179/"
+      },
+      {
+        "name": "jaw-lock",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/746/"
+      },
+      {
+        "name": "double-edge",
+        "level": 55,
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "outrage",
+        "level": 60,
+        "url": "https://pokeapi.co/api/v2/move/200/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "body-slam",
+        "url": "https://pokeapi.co/api/v2/move/34/"
+      },
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "double-edge",
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "roar",
+        "url": "https://pokeapi.co/api/v2/move/46/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "dig",
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "thief",
+        "url": "https://pokeapi.co/api/v2/move/168/"
+      },
+      {
+        "name": "curse",
+        "url": "https://pokeapi.co/api/v2/move/174/"
+      },
+      {
+        "name": "reversal",
+        "url": "https://pokeapi.co/api/v2/move/179/"
+      },
+      {
+        "name": "spite",
+        "url": "https://pokeapi.co/api/v2/move/180/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "scary-face",
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "outrage",
+        "url": "https://pokeapi.co/api/v2/move/200/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "charm",
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "pain-split",
+        "url": "https://pokeapi.co/api/v2/move/220/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "taunt",
+        "url": "https://pokeapi.co/api/v2/move/269/"
+      },
+      {
+        "name": "helping-hand",
+        "url": "https://pokeapi.co/api/v2/move/270/"
+      },
+      {
+        "name": "endeavor",
+        "url": "https://pokeapi.co/api/v2/move/283/"
+      },
+      {
+        "name": "hyper-voice",
+        "url": "https://pokeapi.co/api/v2/move/304/"
+      },
+      {
+        "name": "fake-tears",
+        "url": "https://pokeapi.co/api/v2/move/313/"
+      },
+      {
+        "name": "dark-pulse",
+        "url": "https://pokeapi.co/api/v2/move/399/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "thunder-fang",
+        "url": "https://pokeapi.co/api/v2/move/422/"
+      },
+      {
+        "name": "ice-fang",
+        "url": "https://pokeapi.co/api/v2/move/423/"
+      },
+      {
+        "name": "fire-fang",
+        "url": "https://pokeapi.co/api/v2/move/424/"
+      },
+      {
+        "name": "wild-charge",
+        "url": "https://pokeapi.co/api/v2/move/528/"
+      },
+      {
+        "name": "snarl",
+        "url": "https://pokeapi.co/api/v2/move/555/"
+      },
+      {
+        "name": "play-rough",
+        "url": "https://pokeapi.co/api/v2/move/583/"
+      },
+      {
+        "name": "psychic-fangs",
+        "url": "https://pokeapi.co/api/v2/move/706/"
+      },
+      {
+        "name": "lash-out",
+        "url": "https://pokeapi.co/api/v2/move/808/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "trailblaze",
+        "url": "https://pokeapi.co/api/v2/move/885/"
+      }
+    ]
+  },
+  "genus": "Boss Pokémon",
+  "flavorText": "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies."
+}

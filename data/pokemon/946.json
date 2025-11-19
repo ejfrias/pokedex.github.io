@@ -1,0 +1,268 @@
+{
+  "id": 946,
+  "name": "bramblin",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/946.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/946.png",
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "height": 0.6,
+  "weight": 0.6,
+  "stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 30,
+    "specialAttack": 45,
+    "specialDefense": 35,
+    "speed": 60,
+    "total": 275
+  },
+  "abilities": [
+    {
+      "name": "wind-rider",
+      "isHidden": false
+    },
+    {
+      "name": "infiltrator",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "dark",
+      "fire",
+      "flying",
+      "ghost",
+      "ice"
+    ],
+    "resistances": [
+      "bug",
+      "electric",
+      "grass",
+      "ground",
+      "poison",
+      "water"
+    ],
+    "immunities": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "bramblin",
+      "id": 946
+    },
+    {
+      "name": "brambleghast",
+      "id": 947
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "defense-curl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/111/"
+      },
+      {
+        "name": "rollout",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/205/"
+      },
+      {
+        "name": "astonish",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/310/"
+      },
+      {
+        "name": "absorb",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/71/"
+      },
+      {
+        "name": "rapid-spin",
+        "level": 9,
+        "url": "https://pokeapi.co/api/v2/move/229/"
+      },
+      {
+        "name": "bullet-seed",
+        "level": 13,
+        "url": "https://pokeapi.co/api/v2/move/331/"
+      },
+      {
+        "name": "infestation",
+        "level": 17,
+        "url": "https://pokeapi.co/api/v2/move/611/"
+      },
+      {
+        "name": "hex",
+        "level": 21,
+        "url": "https://pokeapi.co/api/v2/move/506/"
+      },
+      {
+        "name": "mega-drain",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/72/"
+      },
+      {
+        "name": "disable",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/50/"
+      },
+      {
+        "name": "phantom-force",
+        "level": 35,
+        "url": "https://pokeapi.co/api/v2/move/566/"
+      },
+      {
+        "name": "giga-drain",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "curse",
+        "level": 45,
+        "url": "https://pokeapi.co/api/v2/move/174/"
+      },
+      {
+        "name": "pain-split",
+        "level": 50,
+        "url": "https://pokeapi.co/api/v2/move/220/"
+      },
+      {
+        "name": "power-whip",
+        "level": 55,
+        "url": "https://pokeapi.co/api/v2/move/438/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "night-shade",
+        "url": "https://pokeapi.co/api/v2/move/101/"
+      },
+      {
+        "name": "confuse-ray",
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "thief",
+        "url": "https://pokeapi.co/api/v2/move/168/"
+      },
+      {
+        "name": "curse",
+        "url": "https://pokeapi.co/api/v2/move/174/"
+      },
+      {
+        "name": "spite",
+        "url": "https://pokeapi.co/api/v2/move/180/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "scary-face",
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "spikes",
+        "url": "https://pokeapi.co/api/v2/move/191/"
+      },
+      {
+        "name": "giga-drain",
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "pain-split",
+        "url": "https://pokeapi.co/api/v2/move/220/"
+      },
+      {
+        "name": "shadow-ball",
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "bullet-seed",
+        "url": "https://pokeapi.co/api/v2/move/331/"
+      },
+      {
+        "name": "seed-bomb",
+        "url": "https://pokeapi.co/api/v2/move/402/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "leaf-storm",
+        "url": "https://pokeapi.co/api/v2/move/437/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "hex",
+        "url": "https://pokeapi.co/api/v2/move/506/"
+      },
+      {
+        "name": "phantom-force",
+        "url": "https://pokeapi.co/api/v2/move/566/"
+      },
+      {
+        "name": "grassy-terrain",
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      },
+      {
+        "name": "grassy-glide",
+        "url": "https://pokeapi.co/api/v2/move/803/"
+      },
+      {
+        "name": "poltergeist",
+        "url": "https://pokeapi.co/api/v2/move/809/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "pounce",
+        "url": "https://pokeapi.co/api/v2/move/884/"
+      },
+      {
+        "name": "trailblaze",
+        "url": "https://pokeapi.co/api/v2/move/885/"
+      }
+    ]
+  },
+  "genus": "Tumbleweed Pokémon",
+  "flavorText": "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon."
+}

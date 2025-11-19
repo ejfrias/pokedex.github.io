@@ -1,0 +1,398 @@
+{
+  "id": 904,
+  "name": "overqwil",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/904.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/904.png",
+  "types": [
+    "dark",
+    "poison"
+  ],
+  "height": 2.5,
+  "weight": 60.5,
+  "stats": {
+    "hp": 85,
+    "attack": 115,
+    "defense": 95,
+    "specialAttack": 65,
+    "specialDefense": 65,
+    "speed": 85,
+    "total": 510
+  },
+  "abilities": [
+    {
+      "name": "poison-point",
+      "isHidden": false
+    },
+    {
+      "name": "swift-swim",
+      "isHidden": false
+    },
+    {
+      "name": "intimidate",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "ground"
+    ],
+    "resistances": [
+      "bug",
+      "dark",
+      "fairy",
+      "fighting",
+      "ghost",
+      "grass",
+      "poison"
+    ],
+    "immunities": [
+      "psychic"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "qwilfish",
+      "id": 211
+    },
+    {
+      "name": "overqwil",
+      "id": 904
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "harden",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/106/"
+      },
+      {
+        "name": "bite",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "fell-stinger",
+        "level": 12,
+        "url": "https://pokeapi.co/api/v2/move/565/"
+      },
+      {
+        "name": "minimize",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/107/"
+      },
+      {
+        "name": "spikes",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/191/"
+      },
+      {
+        "name": "brine",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/362/"
+      },
+      {
+        "name": "barb-barrage",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/839/"
+      },
+      {
+        "name": "pin-missile",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/42/"
+      },
+      {
+        "name": "toxic-spikes",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/390/"
+      },
+      {
+        "name": "stockpile",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/254/"
+      },
+      {
+        "name": "spit-up",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/255/"
+      },
+      {
+        "name": "toxic",
+        "level": 44,
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "crunch",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "acupressure",
+        "level": 52,
+        "url": "https://pokeapi.co/api/v2/move/367/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 56,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      }
+    ],
+    "gen-legends-arceus": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "spikes",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/191/"
+      },
+      {
+        "name": "pin-missile",
+        "level": 9,
+        "url": "https://pokeapi.co/api/v2/move/42/"
+      },
+      {
+        "name": "barb-barrage",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/839/"
+      },
+      {
+        "name": "water-pulse",
+        "level": 21,
+        "url": "https://pokeapi.co/api/v2/move/352/"
+      },
+      {
+        "name": "dark-pulse",
+        "level": 26,
+        "url": "https://pokeapi.co/api/v2/move/399/"
+      },
+      {
+        "name": "poison-jab",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/398/"
+      },
+      {
+        "name": "aqua-tail",
+        "level": 37,
+        "url": "https://pokeapi.co/api/v2/move/401/"
+      },
+      {
+        "name": "double-edge",
+        "level": 47,
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "self-destruct",
+        "level": 57,
+        "url": "https://pokeapi.co/api/v2/move/120/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "swords-dance",
+        "url": "https://pokeapi.co/api/v2/move/14/"
+      },
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "double-edge",
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "hydro-pump",
+        "url": "https://pokeapi.co/api/v2/move/56/"
+      },
+      {
+        "name": "surf",
+        "url": "https://pokeapi.co/api/v2/move/57/"
+      },
+      {
+        "name": "ice-beam",
+        "url": "https://pokeapi.co/api/v2/move/58/"
+      },
+      {
+        "name": "blizzard",
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "agility",
+        "url": "https://pokeapi.co/api/v2/move/97/"
+      },
+      {
+        "name": "haze",
+        "url": "https://pokeapi.co/api/v2/move/114/"
+      },
+      {
+        "name": "waterfall",
+        "url": "https://pokeapi.co/api/v2/move/127/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "curse",
+        "url": "https://pokeapi.co/api/v2/move/174/"
+      },
+      {
+        "name": "reversal",
+        "url": "https://pokeapi.co/api/v2/move/179/"
+      },
+      {
+        "name": "spite",
+        "url": "https://pokeapi.co/api/v2/move/180/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "scary-face",
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "sludge-bomb",
+        "url": "https://pokeapi.co/api/v2/move/188/"
+      },
+      {
+        "name": "spikes",
+        "url": "https://pokeapi.co/api/v2/move/191/"
+      },
+      {
+        "name": "icy-wind",
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "pain-split",
+        "url": "https://pokeapi.co/api/v2/move/220/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "shadow-ball",
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "taunt",
+        "url": "https://pokeapi.co/api/v2/move/269/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "poison-tail",
+        "url": "https://pokeapi.co/api/v2/move/342/"
+      },
+      {
+        "name": "gyro-ball",
+        "url": "https://pokeapi.co/api/v2/move/360/"
+      },
+      {
+        "name": "toxic-spikes",
+        "url": "https://pokeapi.co/api/v2/move/390/"
+      },
+      {
+        "name": "poison-jab",
+        "url": "https://pokeapi.co/api/v2/move/398/"
+      },
+      {
+        "name": "dark-pulse",
+        "url": "https://pokeapi.co/api/v2/move/399/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "gunk-shot",
+        "url": "https://pokeapi.co/api/v2/move/441/"
+      },
+      {
+        "name": "venoshock",
+        "url": "https://pokeapi.co/api/v2/move/474/"
+      },
+      {
+        "name": "sludge-wave",
+        "url": "https://pokeapi.co/api/v2/move/482/"
+      },
+      {
+        "name": "throat-chop",
+        "url": "https://pokeapi.co/api/v2/move/675/"
+      },
+      {
+        "name": "smart-strike",
+        "url": "https://pokeapi.co/api/v2/move/684/"
+      },
+      {
+        "name": "liquidation",
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      },
+      {
+        "name": "scale-shot",
+        "url": "https://pokeapi.co/api/v2/move/799/"
+      },
+      {
+        "name": "lash-out",
+        "url": "https://pokeapi.co/api/v2/move/808/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "chilling-water",
+        "url": "https://pokeapi.co/api/v2/move/886/"
+      }
+    ]
+  },
+  "genus": "Pin Cluster Pokémon",
+  "flavorText": "Its lancelike spikes and savage temperament have earned it the\nnickname ”sea fiend.” It slurps up poison to nourish itself."
+}

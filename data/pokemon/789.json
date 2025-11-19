@@ -1,0 +1,123 @@
+{
+  "id": 789,
+  "name": "cosmog",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/789.png",
+  "types": [
+    "psychic"
+  ],
+  "height": 0.2,
+  "weight": 0.1,
+  "stats": {
+    "hp": 43,
+    "attack": 29,
+    "defense": 31,
+    "specialAttack": 29,
+    "specialDefense": 31,
+    "speed": 37,
+    "total": 200
+  },
+  "abilities": [
+    {
+      "name": "unaware",
+      "isHidden": false
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "bug",
+      "dark",
+      "ghost"
+    ],
+    "resistances": [
+      "fighting",
+      "psychic"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "cosmog",
+      "id": 789
+    },
+    {
+      "name": "cosmoem",
+      "id": 790
+    },
+    {
+      "name": "solgaleo",
+      "id": 791
+    },
+    {
+      "name": "lunala",
+      "id": 792
+    }
+  ],
+  "locations": {
+    "moon": [
+      "Lake Of The Moone Area"
+    ],
+    "ultra-moon": [
+      "Lake Of The Moone Area"
+    ],
+    "sun": [
+      "Lake Of The Sunne Area"
+    ],
+    "ultra-sun": [
+      "Lake Of The Sunne Area"
+    ]
+  },
+  "movesByLevel": {
+    "gen-sun-moon": [
+      {
+        "name": "splash",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/150/"
+      },
+      {
+        "name": "teleport",
+        "level": 23,
+        "url": "https://pokeapi.co/api/v2/move/100/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "splash",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/150/"
+      },
+      {
+        "name": "teleport",
+        "level": 23,
+        "url": "https://pokeapi.co/api/v2/move/100/"
+      }
+    ],
+    "gen-sword-shield": [
+      {
+        "name": "teleport",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/100/"
+      },
+      {
+        "name": "splash",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/150/"
+      }
+    ],
+    "gen-scarlet-violet": [
+      {
+        "name": "teleport",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/100/"
+      },
+      {
+        "name": "splash",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/150/"
+      }
+    ]
+  },
+  "movesByMachine": {},
+  "genus": "Nebula Pokémon",
+  "flavorText": "Its body is gaseous and frail. It slowly grows as\nit collects dust from the atmosphere."
+}

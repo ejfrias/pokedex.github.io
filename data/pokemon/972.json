@@ -1,0 +1,317 @@
+{
+  "id": 972,
+  "name": "houndstone",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/972.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/972.png",
+  "types": [
+    "ghost"
+  ],
+  "height": 2,
+  "weight": 15,
+  "stats": {
+    "hp": 72,
+    "attack": 101,
+    "defense": 100,
+    "specialAttack": 50,
+    "specialDefense": 97,
+    "speed": 68,
+    "total": 488
+  },
+  "abilities": [
+    {
+      "name": "sand-rush",
+      "isHidden": false
+    },
+    {
+      "name": "fluffy",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "dark",
+      "ghost"
+    ],
+    "resistances": [
+      "bug",
+      "poison"
+    ],
+    "immunities": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "greavard",
+      "id": 971
+    },
+    {
+      "name": "houndstone",
+      "id": 972
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "last-respects",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/854/"
+      },
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "lick",
+        "level": 3,
+        "url": "https://pokeapi.co/api/v2/move/122/"
+      },
+      {
+        "name": "tail-whip",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/39/"
+      },
+      {
+        "name": "bite",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "roar",
+        "level": 9,
+        "url": "https://pokeapi.co/api/v2/move/46/"
+      },
+      {
+        "name": "headbutt",
+        "level": 12,
+        "url": "https://pokeapi.co/api/v2/move/29/"
+      },
+      {
+        "name": "dig",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "rest",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "crunch",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "play-rough",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/583/"
+      },
+      {
+        "name": "helping-hand",
+        "level": 41,
+        "url": "https://pokeapi.co/api/v2/move/270/"
+      },
+      {
+        "name": "phantom-force",
+        "level": 46,
+        "url": "https://pokeapi.co/api/v2/move/566/"
+      },
+      {
+        "name": "charm",
+        "level": 51,
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "double-edge",
+        "level": 58,
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "double-edge",
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "roar",
+        "url": "https://pokeapi.co/api/v2/move/46/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "dig",
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "night-shade",
+        "url": "https://pokeapi.co/api/v2/move/101/"
+      },
+      {
+        "name": "confuse-ray",
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "thief",
+        "url": "https://pokeapi.co/api/v2/move/168/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "scary-face",
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "mud-slap",
+        "url": "https://pokeapi.co/api/v2/move/189/"
+      },
+      {
+        "name": "sandstorm",
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "charm",
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "pain-split",
+        "url": "https://pokeapi.co/api/v2/move/220/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "shadow-ball",
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "uproar",
+        "url": "https://pokeapi.co/api/v2/move/253/"
+      },
+      {
+        "name": "will-o-wisp",
+        "url": "https://pokeapi.co/api/v2/move/261/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "helping-hand",
+        "url": "https://pokeapi.co/api/v2/move/270/"
+      },
+      {
+        "name": "trick",
+        "url": "https://pokeapi.co/api/v2/move/271/"
+      },
+      {
+        "name": "endeavor",
+        "url": "https://pokeapi.co/api/v2/move/283/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "thunder-fang",
+        "url": "https://pokeapi.co/api/v2/move/422/"
+      },
+      {
+        "name": "ice-fang",
+        "url": "https://pokeapi.co/api/v2/move/423/"
+      },
+      {
+        "name": "fire-fang",
+        "url": "https://pokeapi.co/api/v2/move/424/"
+      },
+      {
+        "name": "hex",
+        "url": "https://pokeapi.co/api/v2/move/506/"
+      },
+      {
+        "name": "bulldoze",
+        "url": "https://pokeapi.co/api/v2/move/523/"
+      },
+      {
+        "name": "snarl",
+        "url": "https://pokeapi.co/api/v2/move/555/"
+      },
+      {
+        "name": "phantom-force",
+        "url": "https://pokeapi.co/api/v2/move/566/"
+      },
+      {
+        "name": "play-rough",
+        "url": "https://pokeapi.co/api/v2/move/583/"
+      },
+      {
+        "name": "psychic-fangs",
+        "url": "https://pokeapi.co/api/v2/move/706/"
+      },
+      {
+        "name": "stomping-tantrum",
+        "url": "https://pokeapi.co/api/v2/move/707/"
+      },
+      {
+        "name": "body-press",
+        "url": "https://pokeapi.co/api/v2/move/776/"
+      },
+      {
+        "name": "poltergeist",
+        "url": "https://pokeapi.co/api/v2/move/809/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      }
+    ]
+  },
+  "genus": "Ghost Dog Pokémon",
+  "flavorText": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master."
+}

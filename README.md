@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pokédex
+
+A streamlined, offline-first Pokémon reference built with Next.js, shadcn/ui, and Tailwind CSS.
+
+## Features
+
+- ✨ **Clean, modern UI** - Card-based layout with smooth animations
+- 🔍 **Instant search** - Search by name, number, or type
+- 📊 **Complete stats** - Base stats with visual progress bars
+- ⚔️ **Type effectiveness** - Weaknesses, resistances, and immunities
+- 🔄 **Evolution chains** - Visual evolution paths
+- 📍 **Game locations** - Where to catch each Pokémon per game
+- 🎯 **Move lists** - Organized by level-up and TM/HM per generation
+- 🚀 **Blazing fast** - Static generation, no API calls at runtime
+- 📱 **Fully responsive** - Mobile-first design
+
+## Tech Stack
+
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first styling
+- **shadcn/ui** - Beautiful, accessible components
+- **PokeAPI** - Comprehensive Pokémon data source
 
 ## Getting Started
 

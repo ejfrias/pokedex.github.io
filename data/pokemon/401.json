@@ -1,0 +1,365 @@
+{
+  "id": 401,
+  "name": "kricketot",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/401.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/401.png",
+  "types": [
+    "bug"
+  ],
+  "height": 0.3,
+  "weight": 2.2,
+  "stats": {
+    "hp": 37,
+    "attack": 25,
+    "defense": 41,
+    "specialAttack": 25,
+    "specialDefense": 41,
+    "speed": 25,
+    "total": 194
+  },
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "isHidden": false
+    },
+    {
+      "name": "run-away",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "fire",
+      "flying",
+      "rock"
+    ],
+    "resistances": [
+      "fighting",
+      "grass",
+      "ground"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "kricketot",
+      "id": 401
+    },
+    {
+      "name": "kricketune",
+      "id": 402
+    }
+  ],
+  "locations": {
+    "platinum": [
+      "Eterna Forest Area",
+      "Sinnoh Route 201 Area",
+      "Sinnoh Route 202 Area",
+      "Sinnoh Route 203 Area",
+      "Sinnoh Route 204 South Towards Jubilife City",
+      "Sinnoh Route 204 North Towards Floaroma Town",
+      "Sinnoh Route 205 East Towards Eterna City",
+      "Sinnoh Route 207 Area"
+    ],
+    "diamond": [
+      "Sinnoh Route 202 Area",
+      "Sinnoh Route 203 Area",
+      "Sinnoh Route 204 South Towards Jubilife City",
+      "Sinnoh Route 204 North Towards Floaroma Town",
+      "Sinnoh Route 206 Area",
+      "Sinnoh Route 207 Area"
+    ],
+    "pearl": [
+      "Sinnoh Route 202 Area",
+      "Sinnoh Route 203 Area",
+      "Sinnoh Route 204 South Towards Jubilife City",
+      "Sinnoh Route 204 North Towards Floaroma Town",
+      "Sinnoh Route 206 Area",
+      "Sinnoh Route 207 Area"
+    ],
+    "heartgold": [
+      "Viridian Forest Area"
+    ],
+    "soulsilver": [
+      "Viridian Forest Area"
+    ]
+  },
+  "movesByLevel": {
+    "gen-brilliant-diamond-and-shining-pearl": [
+      {
+        "name": "pound",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/1/"
+      },
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-legends-arceus": [
+      {
+        "name": "absorb",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/71/"
+      },
+      {
+        "name": "tackle",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      }
+    ],
+    "gen-scarlet-violet": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-diamond-pearl": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      }
+    ],
+    "gen-platinum": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-heartgold-soulsilver": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-black-white": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-black-2-white-2": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-x-y": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-omega-ruby-alpha-sapphire": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "bide",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/117/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "endeavor",
+        "url": "https://pokeapi.co/api/v2/move/283/"
+      },
+      {
+        "name": "bug-bite",
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "struggle-bug",
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "lunge",
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "skitter-smack",
+        "url": "https://pokeapi.co/api/v2/move/806/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      }
+    ],
+    "gen-x-y": [
+      {
+        "name": "struggle-bug",
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      }
+    ],
+    "gen-omega-ruby-alpha-sapphire": [
+      {
+        "name": "struggle-bug",
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      }
+    ]
+  },
+  "genus": "Cricket Pokémon",
+  "flavorText": "It shakes its head back to front,\ncausing its antennae to hit each\nother and sound like a xylophone."
+}

@@ -1,0 +1,359 @@
+{
+  "id": 956,
+  "name": "espathra",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/956.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/956.png",
+  "types": [
+    "psychic"
+  ],
+  "height": 1.9,
+  "weight": 90,
+  "stats": {
+    "hp": 95,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 101,
+    "specialDefense": 60,
+    "speed": 105,
+    "total": 481
+  },
+  "abilities": [
+    {
+      "name": "opportunist",
+      "isHidden": false
+    },
+    {
+      "name": "frisk",
+      "isHidden": false
+    },
+    {
+      "name": "speed-boost",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "bug",
+      "dark",
+      "ghost"
+    ],
+    "resistances": [
+      "fighting",
+      "psychic"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "flittle",
+      "id": 955
+    },
+    {
+      "name": "espathra",
+      "id": 956
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "lumina-crash",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/855/"
+      },
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "peck",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/64/"
+      },
+      {
+        "name": "drill-peck",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/65/"
+      },
+      {
+        "name": "feather-dance",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/297/"
+      },
+      {
+        "name": "confusion",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/93/"
+      },
+      {
+        "name": "baby-doll-eyes",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/608/"
+      },
+      {
+        "name": "disarming-voice",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/574/"
+      },
+      {
+        "name": "quick-attack",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/98/"
+      },
+      {
+        "name": "psybeam",
+        "level": 19,
+        "url": "https://pokeapi.co/api/v2/move/60/"
+      },
+      {
+        "name": "pluck",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/365/"
+      },
+      {
+        "name": "agility",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/97/"
+      },
+      {
+        "name": "uproar",
+        "level": 34,
+        "url": "https://pokeapi.co/api/v2/move/253/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "level": 43,
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "psychic",
+        "level": 49,
+        "url": "https://pokeapi.co/api/v2/move/94/"
+      },
+      {
+        "name": "last-resort",
+        "level": 54,
+        "url": "https://pokeapi.co/api/v2/move/387/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "body-slam",
+        "url": "https://pokeapi.co/api/v2/move/34/"
+      },
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "double-edge",
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "psybeam",
+        "url": "https://pokeapi.co/api/v2/move/60/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "low-kick",
+        "url": "https://pokeapi.co/api/v2/move/67/"
+      },
+      {
+        "name": "psychic",
+        "url": "https://pokeapi.co/api/v2/move/94/"
+      },
+      {
+        "name": "agility",
+        "url": "https://pokeapi.co/api/v2/move/97/"
+      },
+      {
+        "name": "night-shade",
+        "url": "https://pokeapi.co/api/v2/move/101/"
+      },
+      {
+        "name": "confuse-ray",
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "swift",
+        "url": "https://pokeapi.co/api/v2/move/129/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "thief",
+        "url": "https://pokeapi.co/api/v2/move/168/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "mud-slap",
+        "url": "https://pokeapi.co/api/v2/move/189/"
+      },
+      {
+        "name": "sandstorm",
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "baton-pass",
+        "url": "https://pokeapi.co/api/v2/move/226/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "psych-up",
+        "url": "https://pokeapi.co/api/v2/move/244/"
+      },
+      {
+        "name": "shadow-ball",
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "uproar",
+        "url": "https://pokeapi.co/api/v2/move/253/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "helping-hand",
+        "url": "https://pokeapi.co/api/v2/move/270/"
+      },
+      {
+        "name": "trick",
+        "url": "https://pokeapi.co/api/v2/move/271/"
+      },
+      {
+        "name": "skill-swap",
+        "url": "https://pokeapi.co/api/v2/move/285/"
+      },
+      {
+        "name": "feather-dance",
+        "url": "https://pokeapi.co/api/v2/move/297/"
+      },
+      {
+        "name": "hyper-voice",
+        "url": "https://pokeapi.co/api/v2/move/304/"
+      },
+      {
+        "name": "aerial-ace",
+        "url": "https://pokeapi.co/api/v2/move/332/"
+      },
+      {
+        "name": "calm-mind",
+        "url": "https://pokeapi.co/api/v2/move/347/"
+      },
+      {
+        "name": "u-turn",
+        "url": "https://pokeapi.co/api/v2/move/369/"
+      },
+      {
+        "name": "seed-bomb",
+        "url": "https://pokeapi.co/api/v2/move/402/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "brave-bird",
+        "url": "https://pokeapi.co/api/v2/move/413/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "zen-headbutt",
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "flash-cannon",
+        "url": "https://pokeapi.co/api/v2/move/430/"
+      },
+      {
+        "name": "trick-room",
+        "url": "https://pokeapi.co/api/v2/move/433/"
+      },
+      {
+        "name": "psyshock",
+        "url": "https://pokeapi.co/api/v2/move/473/"
+      },
+      {
+        "name": "foul-play",
+        "url": "https://pokeapi.co/api/v2/move/492/"
+      },
+      {
+        "name": "stored-power",
+        "url": "https://pokeapi.co/api/v2/move/500/"
+      },
+      {
+        "name": "hex",
+        "url": "https://pokeapi.co/api/v2/move/506/"
+      },
+      {
+        "name": "disarming-voice",
+        "url": "https://pokeapi.co/api/v2/move/574/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "psychic-terrain",
+        "url": "https://pokeapi.co/api/v2/move/678/"
+      },
+      {
+        "name": "expanding-force",
+        "url": "https://pokeapi.co/api/v2/move/797/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "pounce",
+        "url": "https://pokeapi.co/api/v2/move/884/"
+      }
+    ]
+  },
+  "genus": "Ostrich Pokémon",
+  "flavorText": "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament."
+}

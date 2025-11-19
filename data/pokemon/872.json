@@ -1,0 +1,195 @@
+{
+  "id": 872,
+  "name": "snom",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/872.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/872.png",
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "height": 0.3,
+  "weight": 3.8,
+  "stats": {
+    "hp": 30,
+    "attack": 25,
+    "defense": 35,
+    "specialAttack": 45,
+    "specialDefense": 30,
+    "speed": 20,
+    "total": 185
+  },
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "isHidden": false
+    },
+    {
+      "name": "ice-scales",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "fire",
+      "flying",
+      "rock",
+      "steel"
+    ],
+    "resistances": [
+      "fighting",
+      "grass",
+      "ground",
+      "ice"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "snom",
+      "id": 872
+    },
+    {
+      "name": "frosmoth",
+      "id": 873
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-sword-shield": [
+      {
+        "name": "powder-snow",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/181/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      }
+    ],
+    "gen-scarlet-violet": [
+      {
+        "name": "powder-snow",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/181/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-sword-shield": [
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "snore",
+        "url": "https://pokeapi.co/api/v2/move/173/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "icy-wind",
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "icicle-spear",
+        "url": "https://pokeapi.co/api/v2/move/333/"
+      },
+      {
+        "name": "bug-buzz",
+        "url": "https://pokeapi.co/api/v2/move/405/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      }
+    ],
+    "gen-scarlet-violet": [
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "icy-wind",
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "icicle-spear",
+        "url": "https://pokeapi.co/api/v2/move/333/"
+      },
+      {
+        "name": "bug-buzz",
+        "url": "https://pokeapi.co/api/v2/move/405/"
+      },
+      {
+        "name": "bug-bite",
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "struggle-bug",
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "lunge",
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "skitter-smack",
+        "url": "https://pokeapi.co/api/v2/move/806/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "pounce",
+        "url": "https://pokeapi.co/api/v2/move/884/"
+      }
+    ]
+  },
+  "genus": "Worm Pokémon",
+  "flavorText": "It spits out thread imbued with a frigid sort of\nenergy and uses it to tie its body to branches,\ndisguising itself as an icicle while it sleeps."
+}

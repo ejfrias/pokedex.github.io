@@ -1,0 +1,382 @@
+{
+  "id": 954,
+  "name": "rabsca",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/954.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/954.png",
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "height": 0.3,
+  "weight": 3.5,
+  "stats": {
+    "hp": 75,
+    "attack": 50,
+    "defense": 85,
+    "specialAttack": 115,
+    "specialDefense": 100,
+    "speed": 45,
+    "total": 470
+  },
+  "abilities": [
+    {
+      "name": "synchronize",
+      "isHidden": false
+    },
+    {
+      "name": "telepathy",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "bug",
+      "dark",
+      "fire",
+      "flying",
+      "ghost",
+      "rock"
+    ],
+    "resistances": [
+      "fighting",
+      "grass",
+      "ground",
+      "psychic"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "rellor",
+      "id": 953
+    },
+    {
+      "name": "rabsca",
+      "id": 954
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "revival-blessing",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/863/"
+      },
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "confusion",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/93/"
+      },
+      {
+        "name": "defense-curl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/111/"
+      },
+      {
+        "name": "sand-attack",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/28/"
+      },
+      {
+        "name": "struggle-bug",
+        "level": 7,
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "rollout",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/205/"
+      },
+      {
+        "name": "psybeam",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/60/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "take-down",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "extrasensory",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/326/"
+      },
+      {
+        "name": "lunge",
+        "level": 35,
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "power-swap",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/384/"
+      },
+      {
+        "name": "guard-swap",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/385/"
+      },
+      {
+        "name": "speed-swap",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/683/"
+      },
+      {
+        "name": "bug-buzz",
+        "level": 45,
+        "url": "https://pokeapi.co/api/v2/move/405/"
+      },
+      {
+        "name": "psychic",
+        "level": 50,
+        "url": "https://pokeapi.co/api/v2/move/94/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "psybeam",
+        "url": "https://pokeapi.co/api/v2/move/60/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "dig",
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "psychic",
+        "url": "https://pokeapi.co/api/v2/move/94/"
+      },
+      {
+        "name": "confuse-ray",
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "leech-life",
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "thief",
+        "url": "https://pokeapi.co/api/v2/move/168/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "sludge-bomb",
+        "url": "https://pokeapi.co/api/v2/move/188/"
+      },
+      {
+        "name": "mud-slap",
+        "url": "https://pokeapi.co/api/v2/move/189/"
+      },
+      {
+        "name": "sandstorm",
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "psych-up",
+        "url": "https://pokeapi.co/api/v2/move/244/"
+      },
+      {
+        "name": "shadow-ball",
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "future-sight",
+        "url": "https://pokeapi.co/api/v2/move/248/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "trick",
+        "url": "https://pokeapi.co/api/v2/move/271/"
+      },
+      {
+        "name": "skill-swap",
+        "url": "https://pokeapi.co/api/v2/move/285/"
+      },
+      {
+        "name": "imprison",
+        "url": "https://pokeapi.co/api/v2/move/286/"
+      },
+      {
+        "name": "weather-ball",
+        "url": "https://pokeapi.co/api/v2/move/311/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "calm-mind",
+        "url": "https://pokeapi.co/api/v2/move/347/"
+      },
+      {
+        "name": "gravity",
+        "url": "https://pokeapi.co/api/v2/move/356/"
+      },
+      {
+        "name": "fling",
+        "url": "https://pokeapi.co/api/v2/move/374/"
+      },
+      {
+        "name": "x-scissor",
+        "url": "https://pokeapi.co/api/v2/move/404/"
+      },
+      {
+        "name": "bug-buzz",
+        "url": "https://pokeapi.co/api/v2/move/405/"
+      },
+      {
+        "name": "power-gem",
+        "url": "https://pokeapi.co/api/v2/move/408/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "earth-power",
+        "url": "https://pokeapi.co/api/v2/move/414/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "zen-headbutt",
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "trick-room",
+        "url": "https://pokeapi.co/api/v2/move/433/"
+      },
+      {
+        "name": "gunk-shot",
+        "url": "https://pokeapi.co/api/v2/move/441/"
+      },
+      {
+        "name": "bug-bite",
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "psyshock",
+        "url": "https://pokeapi.co/api/v2/move/473/"
+      },
+      {
+        "name": "electro-ball",
+        "url": "https://pokeapi.co/api/v2/move/486/"
+      },
+      {
+        "name": "stored-power",
+        "url": "https://pokeapi.co/api/v2/move/500/"
+      },
+      {
+        "name": "struggle-bug",
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "psychic-terrain",
+        "url": "https://pokeapi.co/api/v2/move/678/"
+      },
+      {
+        "name": "lunge",
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "expanding-force",
+        "url": "https://pokeapi.co/api/v2/move/797/"
+      },
+      {
+        "name": "skitter-smack",
+        "url": "https://pokeapi.co/api/v2/move/806/"
+      },
+      {
+        "name": "poltergeist",
+        "url": "https://pokeapi.co/api/v2/move/809/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "pounce",
+        "url": "https://pokeapi.co/api/v2/move/884/"
+      },
+      {
+        "name": "psychic-noise",
+        "url": "https://pokeapi.co/api/v2/move/917/"
+      }
+    ]
+  },
+  "genus": "Rolling Pokémon",
+  "flavorText": "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball."
+}

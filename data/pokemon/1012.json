@@ -1,0 +1,258 @@
+{
+  "id": 1012,
+  "name": "poltchageist",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1012.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1012.png",
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "height": 0.1,
+  "weight": 1.1,
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 45,
+    "specialAttack": 74,
+    "specialDefense": 54,
+    "speed": 50,
+    "total": 308
+  },
+  "abilities": [
+    {
+      "name": "hospitality",
+      "isHidden": false
+    },
+    {
+      "name": "heatproof",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "dark",
+      "fire",
+      "flying",
+      "ghost",
+      "ice"
+    ],
+    "resistances": [
+      "bug",
+      "electric",
+      "grass",
+      "ground",
+      "poison",
+      "water"
+    ],
+    "immunities": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "poltchageist",
+      "id": 1012
+    },
+    {
+      "name": "sinistcha",
+      "id": 1013
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "stun-spore",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/78/"
+      },
+      {
+        "name": "withdraw",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/110/"
+      },
+      {
+        "name": "astonish",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/310/"
+      },
+      {
+        "name": "absorb",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/71/"
+      },
+      {
+        "name": "life-dew",
+        "level": 12,
+        "url": "https://pokeapi.co/api/v2/move/791/"
+      },
+      {
+        "name": "foul-play",
+        "level": 18,
+        "url": "https://pokeapi.co/api/v2/move/492/"
+      },
+      {
+        "name": "mega-drain",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/72/"
+      },
+      {
+        "name": "hex",
+        "level": 30,
+        "url": "https://pokeapi.co/api/v2/move/506/"
+      },
+      {
+        "name": "rage-powder",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/476/"
+      },
+      {
+        "name": "giga-drain",
+        "level": 42,
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "shadow-ball",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "memento",
+        "level": 54,
+        "url": "https://pokeapi.co/api/v2/move/262/"
+      },
+      {
+        "name": "leaf-storm",
+        "level": 60,
+        "url": "https://pokeapi.co/api/v2/move/437/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "night-shade",
+        "url": "https://pokeapi.co/api/v2/move/101/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "curse",
+        "url": "https://pokeapi.co/api/v2/move/174/"
+      },
+      {
+        "name": "spite",
+        "url": "https://pokeapi.co/api/v2/move/180/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "giga-drain",
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "pain-split",
+        "url": "https://pokeapi.co/api/v2/move/220/"
+      },
+      {
+        "name": "psych-up",
+        "url": "https://pokeapi.co/api/v2/move/244/"
+      },
+      {
+        "name": "shadow-ball",
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "uproar",
+        "url": "https://pokeapi.co/api/v2/move/253/"
+      },
+      {
+        "name": "imprison",
+        "url": "https://pokeapi.co/api/v2/move/286/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "magical-leaf",
+        "url": "https://pokeapi.co/api/v2/move/345/"
+      },
+      {
+        "name": "calm-mind",
+        "url": "https://pokeapi.co/api/v2/move/347/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "nasty-plot",
+        "url": "https://pokeapi.co/api/v2/move/417/"
+      },
+      {
+        "name": "trick-room",
+        "url": "https://pokeapi.co/api/v2/move/433/"
+      },
+      {
+        "name": "leaf-storm",
+        "url": "https://pokeapi.co/api/v2/move/437/"
+      },
+      {
+        "name": "foul-play",
+        "url": "https://pokeapi.co/api/v2/move/492/"
+      },
+      {
+        "name": "scald",
+        "url": "https://pokeapi.co/api/v2/move/503/"
+      },
+      {
+        "name": "hex",
+        "url": "https://pokeapi.co/api/v2/move/506/"
+      },
+      {
+        "name": "phantom-force",
+        "url": "https://pokeapi.co/api/v2/move/566/"
+      },
+      {
+        "name": "grassy-terrain",
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      },
+      {
+        "name": "poltergeist",
+        "url": "https://pokeapi.co/api/v2/move/809/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      }
+    ]
+  },
+  "genus": "Matcha Pokémon",
+  "flavorText": "Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon."
+}

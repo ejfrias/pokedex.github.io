@@ -1,0 +1,377 @@
+{
+  "id": 902,
+  "name": "basculegion-male",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/902.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/902.png",
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "height": 3,
+  "weight": 110,
+  "stats": {
+    "hp": 120,
+    "attack": 112,
+    "defense": 65,
+    "specialAttack": 80,
+    "specialDefense": 75,
+    "speed": 78,
+    "total": 530
+  },
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "isHidden": false
+    },
+    {
+      "name": "adaptability",
+      "isHidden": false
+    },
+    {
+      "name": "mold-breaker",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "dark",
+      "electric",
+      "ghost",
+      "grass"
+    ],
+    "resistances": [
+      "bug",
+      "fire",
+      "ice",
+      "poison",
+      "steel",
+      "water"
+    ],
+    "immunities": [
+      "fighting",
+      "normal"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "basculin",
+      "id": 550
+    },
+    {
+      "name": "basculegion",
+      "id": 902
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "tail-whip",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/39/"
+      },
+      {
+        "name": "water-gun",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/55/"
+      },
+      {
+        "name": "shadow-ball",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "phantom-force",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/566/"
+      },
+      {
+        "name": "tackle",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "flail",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/175/"
+      },
+      {
+        "name": "aqua-jet",
+        "level": 12,
+        "url": "https://pokeapi.co/api/v2/move/453/"
+      },
+      {
+        "name": "bite",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "scary-face",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "headbutt",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/29/"
+      },
+      {
+        "name": "soak",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/487/"
+      },
+      {
+        "name": "crunch",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "take-down",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "uproar",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/253/"
+      },
+      {
+        "name": "wave-crash",
+        "level": 44,
+        "url": "https://pokeapi.co/api/v2/move/834/"
+      },
+      {
+        "name": "thrash",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/37/"
+      },
+      {
+        "name": "double-edge",
+        "level": 52,
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "head-smash",
+        "level": 56,
+        "url": "https://pokeapi.co/api/v2/move/457/"
+      }
+    ],
+    "gen-legends-arceus": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "aqua-jet",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/453/"
+      },
+      {
+        "name": "bite",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "hex",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/506/"
+      },
+      {
+        "name": "zen-headbutt",
+        "level": 18,
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "crunch",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "shadow-ball",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "wave-crash",
+        "level": 34,
+        "url": "https://pokeapi.co/api/v2/move/834/"
+      },
+      {
+        "name": "double-edge",
+        "level": 43,
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "double-edge",
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "hydro-pump",
+        "url": "https://pokeapi.co/api/v2/move/56/"
+      },
+      {
+        "name": "surf",
+        "url": "https://pokeapi.co/api/v2/move/57/"
+      },
+      {
+        "name": "ice-beam",
+        "url": "https://pokeapi.co/api/v2/move/58/"
+      },
+      {
+        "name": "blizzard",
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "agility",
+        "url": "https://pokeapi.co/api/v2/move/97/"
+      },
+      {
+        "name": "night-shade",
+        "url": "https://pokeapi.co/api/v2/move/101/"
+      },
+      {
+        "name": "confuse-ray",
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "waterfall",
+        "url": "https://pokeapi.co/api/v2/move/127/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "spite",
+        "url": "https://pokeapi.co/api/v2/move/180/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "scary-face",
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "icy-wind",
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "outrage",
+        "url": "https://pokeapi.co/api/v2/move/200/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "pain-split",
+        "url": "https://pokeapi.co/api/v2/move/220/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "shadow-ball",
+        "url": "https://pokeapi.co/api/v2/move/247/"
+      },
+      {
+        "name": "whirlpool",
+        "url": "https://pokeapi.co/api/v2/move/250/"
+      },
+      {
+        "name": "uproar",
+        "url": "https://pokeapi.co/api/v2/move/253/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "endeavor",
+        "url": "https://pokeapi.co/api/v2/move/283/"
+      },
+      {
+        "name": "muddy-water",
+        "url": "https://pokeapi.co/api/v2/move/330/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "water-pulse",
+        "url": "https://pokeapi.co/api/v2/move/352/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "ice-fang",
+        "url": "https://pokeapi.co/api/v2/move/423/"
+      },
+      {
+        "name": "hex",
+        "url": "https://pokeapi.co/api/v2/move/506/"
+      },
+      {
+        "name": "phantom-force",
+        "url": "https://pokeapi.co/api/v2/move/566/"
+      },
+      {
+        "name": "psychic-fangs",
+        "url": "https://pokeapi.co/api/v2/move/706/"
+      },
+      {
+        "name": "liquidation",
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      },
+      {
+        "name": "scale-shot",
+        "url": "https://pokeapi.co/api/v2/move/799/"
+      },
+      {
+        "name": "flip-turn",
+        "url": "https://pokeapi.co/api/v2/move/812/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "snowscape",
+        "url": "https://pokeapi.co/api/v2/move/883/"
+      },
+      {
+        "name": "chilling-water",
+        "url": "https://pokeapi.co/api/v2/move/886/"
+      }
+    ]
+  },
+  "genus": "Big Fish Pokémon",
+  "flavorText": "Clads itself in the souls of comrades that perished before\nfulfilling their goals of journeying upstream. No other species\nthroughout all Hisui's rivers is Basculegion's equal."
+}

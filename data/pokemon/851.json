@@ -1,0 +1,272 @@
+{
+  "id": 851,
+  "name": "centiskorch",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/851.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/851.png",
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "height": 3,
+  "weight": 120,
+  "stats": {
+    "hp": 100,
+    "attack": 115,
+    "defense": 65,
+    "specialAttack": 90,
+    "specialDefense": 90,
+    "speed": 65,
+    "total": 525
+  },
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "isHidden": false
+    },
+    {
+      "name": "white-smoke",
+      "isHidden": false
+    },
+    {
+      "name": "flame-body",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "flying",
+      "rock",
+      "water"
+    ],
+    "resistances": [
+      "bug",
+      "fairy",
+      "fighting",
+      "fire",
+      "grass",
+      "ground",
+      "ice",
+      "steel"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "sizzlipede",
+      "id": 850
+    },
+    {
+      "name": "centiskorch",
+      "id": 851
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-sword-shield": [
+      {
+        "name": "wrap",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/35/"
+      },
+      {
+        "name": "bite",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "ember",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/52/"
+      },
+      {
+        "name": "smokescreen",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/108/"
+      },
+      {
+        "name": "inferno",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/517/"
+      },
+      {
+        "name": "flame-wheel",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/172/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "coil",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/489/"
+      },
+      {
+        "name": "slam",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/21/"
+      },
+      {
+        "name": "fire-spin",
+        "level": 39,
+        "url": "https://pokeapi.co/api/v2/move/83/"
+      },
+      {
+        "name": "crunch",
+        "level": 46,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "fire-lash",
+        "level": 53,
+        "url": "https://pokeapi.co/api/v2/move/680/"
+      },
+      {
+        "name": "lunge",
+        "level": 60,
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "burn-up",
+        "level": 67,
+        "url": "https://pokeapi.co/api/v2/move/682/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-sword-shield": [
+      {
+        "name": "flamethrower",
+        "url": "https://pokeapi.co/api/v2/move/53/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "fire-spin",
+        "url": "https://pokeapi.co/api/v2/move/83/"
+      },
+      {
+        "name": "fire-blast",
+        "url": "https://pokeapi.co/api/v2/move/126/"
+      },
+      {
+        "name": "leech-life",
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "snore",
+        "url": "https://pokeapi.co/api/v2/move/173/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "heat-wave",
+        "url": "https://pokeapi.co/api/v2/move/257/"
+      },
+      {
+        "name": "will-o-wisp",
+        "url": "https://pokeapi.co/api/v2/move/261/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "overheat",
+        "url": "https://pokeapi.co/api/v2/move/315/"
+      },
+      {
+        "name": "flare-blitz",
+        "url": "https://pokeapi.co/api/v2/move/394/"
+      },
+      {
+        "name": "x-scissor",
+        "url": "https://pokeapi.co/api/v2/move/404/"
+      },
+      {
+        "name": "bug-buzz",
+        "url": "https://pokeapi.co/api/v2/move/405/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "thunder-fang",
+        "url": "https://pokeapi.co/api/v2/move/422/"
+      },
+      {
+        "name": "fire-fang",
+        "url": "https://pokeapi.co/api/v2/move/424/"
+      },
+      {
+        "name": "power-whip",
+        "url": "https://pokeapi.co/api/v2/move/438/"
+      },
+      {
+        "name": "venoshock",
+        "url": "https://pokeapi.co/api/v2/move/474/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "scald",
+        "url": "https://pokeapi.co/api/v2/move/503/"
+      },
+      {
+        "name": "heat-crash",
+        "url": "https://pokeapi.co/api/v2/move/535/"
+      },
+      {
+        "name": "mystical-fire",
+        "url": "https://pokeapi.co/api/v2/move/595/"
+      },
+      {
+        "name": "brutal-swing",
+        "url": "https://pokeapi.co/api/v2/move/693/"
+      }
+    ]
+  },
+  "genus": "Radiator Pokémon",
+  "flavorText": "When it heats up, its body temperature reaches\nabout 1,500 degrees Fahrenheit. It lashes its\nbody like a whip and launches itself at enemies."
+}

@@ -1,0 +1,660 @@
+{
+  "id": 202,
+  "name": "wobbuffet",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/202.png",
+  "types": [
+    "psychic"
+  ],
+  "height": 1.3,
+  "weight": 28.5,
+  "stats": {
+    "hp": 190,
+    "attack": 33,
+    "defense": 58,
+    "specialAttack": 33,
+    "specialDefense": 58,
+    "speed": 33,
+    "total": 405
+  },
+  "abilities": [
+    {
+      "name": "shadow-tag",
+      "isHidden": false
+    },
+    {
+      "name": "telepathy",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "bug",
+      "dark",
+      "ghost"
+    ],
+    "resistances": [
+      "fighting",
+      "psychic"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "wynaut",
+      "id": 360
+    },
+    {
+      "name": "wobbuffet",
+      "id": 202
+    }
+  ],
+  "locations": {
+    "diamond": [
+      "Lake Verity Before Galactic Intervention",
+      "Lake Verity After Galactic Intervention",
+      "Lake Valor Area",
+      "Lake Acuity Area"
+    ],
+    "pearl": [
+      "Lake Verity Before Galactic Intervention",
+      "Lake Verity After Galactic Intervention",
+      "Lake Valor Area",
+      "Lake Acuity Area"
+    ],
+    "platinum": [
+      "Lake Verity Before Galactic Intervention",
+      "Lake Verity After Galactic Intervention",
+      "Lake Valor Area"
+    ],
+    "gold": [
+      "Dark Cave Blackthorn City Entrance"
+    ],
+    "silver": [
+      "Dark Cave Blackthorn City Entrance"
+    ],
+    "crystal": [
+      "Dark Cave Blackthorn City Entrance"
+    ],
+    "heartgold": [
+      "Dark Cave Blackthorn City Entrance",
+      "Cerulean Cave 1f",
+      "Cerulean Cave 2f",
+      "Cerulean Cave B1f",
+      "Johto Safari Zone Zone Peak"
+    ],
+    "soulsilver": [
+      "Dark Cave Blackthorn City Entrance",
+      "Cerulean Cave 1f",
+      "Cerulean Cave 2f",
+      "Cerulean Cave B1f",
+      "Johto Safari Zone Zone Peak"
+    ],
+    "firered": [
+      "Cerulean Cave 1f",
+      "Cerulean Cave 2f",
+      "Cerulean Cave B1f",
+      "Ruin Valley Area"
+    ],
+    "leafgreen": [
+      "Cerulean Cave 1f",
+      "Cerulean Cave 2f",
+      "Cerulean Cave B1f",
+      "Ruin Valley Area"
+    ],
+    "ruby": [
+      "Hoenn Safari Zone Sw",
+      "Hoenn Safari Zone Se"
+    ],
+    "sapphire": [
+      "Hoenn Safari Zone Sw",
+      "Hoenn Safari Zone Se"
+    ],
+    "emerald": [
+      "Hoenn Safari Zone Sw",
+      "Hoenn Safari Zone Se"
+    ],
+    "x": [
+      "Reflection Cave Unknown Area 305",
+      "Reflection Cave Unknown Area 306",
+      "Reflection Cave Unknown Area 307",
+      "Reflection Cave Unknown Area 308"
+    ],
+    "y": [
+      "Reflection Cave Unknown Area 305",
+      "Reflection Cave Unknown Area 306",
+      "Reflection Cave Unknown Area 307",
+      "Reflection Cave Unknown Area 308"
+    ]
+  },
+  "movesByLevel": {
+    "gen-gold-silver": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-crystal": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-ruby-sapphire": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-emerald": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-firered-leafgreen": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-diamond-pearl": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-platinum": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-heartgold-soulsilver": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-black-white": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-colosseum": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-xd": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-black-2-white-2": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-x-y": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-omega-ruby-alpha-sapphire": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-sword-shield": [
+      {
+        "name": "counter",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      },
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "amnesia",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/133/"
+      },
+      {
+        "name": "splash",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/150/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "charm",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "encore",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/227/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-brilliant-diamond-and-shining-pearl": [
+      {
+        "name": "counter",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "safeguard",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      },
+      {
+        "name": "counter",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/68/"
+      },
+      {
+        "name": "amnesia",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/133/"
+      },
+      {
+        "name": "splash",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/150/"
+      },
+      {
+        "name": "destiny-bond",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/194/"
+      },
+      {
+        "name": "charm",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "safeguard",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "encore",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/227/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-sword-shield": [
+      {
+        "name": "amnesia",
+        "url": "https://pokeapi.co/api/v2/move/133/"
+      },
+      {
+        "name": "charm",
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "encore",
+        "url": "https://pokeapi.co/api/v2/move/227/"
+      }
+    ],
+    "gen-x-y": [
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      }
+    ],
+    "gen-omega-ruby-alpha-sapphire": [
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      }
+    ],
+    "gen-brilliant-diamond-and-shining-pearl": [
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      }
+    ]
+  },
+  "genus": "Patient Pokémon",
+  "flavorText": "It hates light and\nshock. If attack­\ned, it inflates its body to pump\nup its counter­\nstrike."
+}

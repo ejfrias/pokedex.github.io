@@ -1,0 +1,285 @@
+{
+  "id": 1011,
+  "name": "dipplin",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1011.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1011.png",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "height": 0.4,
+  "weight": 9.7,
+  "stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 110,
+    "specialAttack": 95,
+    "specialDefense": 80,
+    "speed": 40,
+    "total": 485
+  },
+  "abilities": [
+    {
+      "name": "supersweet-syrup",
+      "isHidden": false
+    },
+    {
+      "name": "gluttony",
+      "isHidden": false
+    },
+    {
+      "name": "sticky-hold",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "bug",
+      "dragon",
+      "fairy",
+      "flying",
+      "ice",
+      "poison"
+    ],
+    "resistances": [
+      "electric",
+      "fire",
+      "grass",
+      "ground",
+      "water"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "applin",
+      "id": 840
+    },
+    {
+      "name": "flapple",
+      "id": 841
+    },
+    {
+      "name": "appletun",
+      "id": 842
+    },
+    {
+      "name": "dipplin",
+      "id": 1011
+    },
+    {
+      "name": "hydrapple",
+      "id": 1019
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "double-hit",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/458/"
+      },
+      {
+        "name": "withdraw",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/110/"
+      },
+      {
+        "name": "sweet-scent",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/230/"
+      },
+      {
+        "name": "recycle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/278/"
+      },
+      {
+        "name": "astonish",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/310/"
+      },
+      {
+        "name": "dragon-tail",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/525/"
+      },
+      {
+        "name": "growth",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/74/"
+      },
+      {
+        "name": "dragon-breath",
+        "level": 12,
+        "url": "https://pokeapi.co/api/v2/move/225/"
+      },
+      {
+        "name": "protect",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "bullet-seed",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/331/"
+      },
+      {
+        "name": "syrup-bomb",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/903/"
+      },
+      {
+        "name": "dragon-pulse",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/406/"
+      },
+      {
+        "name": "recover",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/105/"
+      },
+      {
+        "name": "energy-ball",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "substitute",
+        "level": 44,
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "body-slam",
+        "url": "https://pokeapi.co/api/v2/move/34/"
+      },
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "outrage",
+        "url": "https://pokeapi.co/api/v2/move/200/"
+      },
+      {
+        "name": "giga-drain",
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "bullet-seed",
+        "url": "https://pokeapi.co/api/v2/move/331/"
+      },
+      {
+        "name": "gyro-ball",
+        "url": "https://pokeapi.co/api/v2/move/360/"
+      },
+      {
+        "name": "seed-bomb",
+        "url": "https://pokeapi.co/api/v2/move/402/"
+      },
+      {
+        "name": "dragon-pulse",
+        "url": "https://pokeapi.co/api/v2/move/406/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "draco-meteor",
+        "url": "https://pokeapi.co/api/v2/move/434/"
+      },
+      {
+        "name": "leaf-storm",
+        "url": "https://pokeapi.co/api/v2/move/437/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "bug-bite",
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "dragon-tail",
+        "url": "https://pokeapi.co/api/v2/move/525/"
+      },
+      {
+        "name": "grassy-terrain",
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      },
+      {
+        "name": "pollen-puff",
+        "url": "https://pokeapi.co/api/v2/move/676/"
+      },
+      {
+        "name": "grassy-glide",
+        "url": "https://pokeapi.co/api/v2/move/803/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "pounce",
+        "url": "https://pokeapi.co/api/v2/move/884/"
+      },
+      {
+        "name": "dragon-cheer",
+        "url": "https://pokeapi.co/api/v2/move/913/"
+      }
+    ]
+  },
+  "genus": "Candy Apple Pokémon",
+  "flavorText": "Dipplin is two creatures in one Pokémon. Its evolution was triggered by a special apple grown only in one place."
+}

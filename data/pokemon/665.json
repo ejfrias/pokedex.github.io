@@ -1,0 +1,184 @@
+{
+  "id": 665,
+  "name": "spewpa",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/665.png",
+  "types": [
+    "bug"
+  ],
+  "height": 0.3,
+  "weight": 8.4,
+  "stats": {
+    "hp": 45,
+    "attack": 22,
+    "defense": 60,
+    "specialAttack": 27,
+    "specialDefense": 30,
+    "speed": 29,
+    "total": 213
+  },
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "isHidden": false
+    },
+    {
+      "name": "friend-guard",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "fire",
+      "flying",
+      "rock"
+    ],
+    "resistances": [
+      "fighting",
+      "grass",
+      "ground"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "scatterbug",
+      "id": 664
+    },
+    {
+      "name": "spewpa",
+      "id": 665
+    },
+    {
+      "name": "vivillon",
+      "id": 666
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-x-y": [
+      {
+        "name": "harden",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/106/"
+      },
+      {
+        "name": "protect",
+        "level": 9,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      }
+    ],
+    "gen-omega-ruby-alpha-sapphire": [
+      {
+        "name": "harden",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/106/"
+      },
+      {
+        "name": "protect",
+        "level": 9,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "protect",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "harden",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/106/"
+      },
+      {
+        "name": "protect",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "protect",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "harden",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/106/"
+      },
+      {
+        "name": "protect",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      }
+    ],
+    "gen-scarlet-violet": [
+      {
+        "name": "protect",
+        "level": 0,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "harden",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/106/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-x-y": [
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      }
+    ],
+    "gen-omega-ruby-alpha-sapphire": [
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      }
+    ],
+    "gen-scarlet-violet": [
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "bug-bite",
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "struggle-bug",
+        "url": "https://pokeapi.co/api/v2/move/522/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "pounce",
+        "url": "https://pokeapi.co/api/v2/move/884/"
+      }
+    ]
+  },
+  "genus": "Scatterdust Pokémon",
+  "flavorText": "It lives hidden within thicket shadows.\nWhen predators attack, it quickly bristles the fur\ncovering its body in an effort to threaten them."
+}

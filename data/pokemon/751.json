@@ -1,0 +1,802 @@
+{
+  "id": 751,
+  "name": "dewpider",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/751.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/751.png",
+  "types": [
+    "water",
+    "bug"
+  ],
+  "height": 0.3,
+  "weight": 4,
+  "stats": {
+    "hp": 38,
+    "attack": 40,
+    "defense": 52,
+    "specialAttack": 40,
+    "specialDefense": 72,
+    "speed": 27,
+    "total": 269
+  },
+  "abilities": [
+    {
+      "name": "water-bubble",
+      "isHidden": false
+    },
+    {
+      "name": "water-absorb",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "electric",
+      "flying",
+      "rock"
+    ],
+    "resistances": [
+      "fighting",
+      "fire",
+      "grass",
+      "ground",
+      "ice",
+      "steel",
+      "water"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "dewpider",
+      "id": 751
+    },
+    {
+      "name": "araquanid",
+      "id": 752
+    }
+  ],
+  "locations": {
+    "sun": [
+      "Brooklet Hill North",
+      "Brooklet Hill South"
+    ],
+    "moon": [
+      "Brooklet Hill North",
+      "Brooklet Hill South"
+    ],
+    "ultra-sun": [
+      "Brooklet Hill North",
+      "Brooklet Hill South"
+    ],
+    "ultra-moon": [
+      "Brooklet Hill North",
+      "Brooklet Hill South"
+    ]
+  },
+  "movesByLevel": {
+    "gen-sword-shield": [
+      {
+        "name": "water-gun",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/55/"
+      },
+      {
+        "name": "infestation",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/611/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "bite",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "bubble-beam",
+        "level": 12,
+        "url": "https://pokeapi.co/api/v2/move/61/"
+      },
+      {
+        "name": "aqua-ring",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/392/"
+      },
+      {
+        "name": "headbutt",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/29/"
+      },
+      {
+        "name": "crunch",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "soak",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/487/"
+      },
+      {
+        "name": "entrainment",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/494/"
+      },
+      {
+        "name": "lunge",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "liquidation",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      },
+      {
+        "name": "leech-life",
+        "level": 44,
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-scarlet-violet": [
+      {
+        "name": "water-gun",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/55/"
+      },
+      {
+        "name": "infestation",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/611/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "bite",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "bubble-beam",
+        "level": 12,
+        "url": "https://pokeapi.co/api/v2/move/61/"
+      },
+      {
+        "name": "aqua-ring",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/392/"
+      },
+      {
+        "name": "headbutt",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/29/"
+      },
+      {
+        "name": "crunch",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "soak",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/487/"
+      },
+      {
+        "name": "entrainment",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/494/"
+      },
+      {
+        "name": "lunge",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "liquidation",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      },
+      {
+        "name": "leech-life",
+        "level": 44,
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "bubble",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/145/"
+      },
+      {
+        "name": "water-sport",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/346/"
+      },
+      {
+        "name": "infestation",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/611/"
+      },
+      {
+        "name": "spider-web",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/169/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 13,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "bubble-beam",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/61/"
+      },
+      {
+        "name": "bite",
+        "level": 21,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "aqua-ring",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/392/"
+      },
+      {
+        "name": "leech-life",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "crunch",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "lunge",
+        "level": 37,
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      },
+      {
+        "name": "liquidation",
+        "level": 45,
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      },
+      {
+        "name": "entrainment",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/494/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "bubble",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/145/"
+      },
+      {
+        "name": "water-sport",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/346/"
+      },
+      {
+        "name": "infestation",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/611/"
+      },
+      {
+        "name": "spider-web",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/169/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 13,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "bubble-beam",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/61/"
+      },
+      {
+        "name": "bite",
+        "level": 21,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "aqua-ring",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/392/"
+      },
+      {
+        "name": "leech-life",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "crunch",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "lunge",
+        "level": 37,
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "mirror-coat",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/243/"
+      },
+      {
+        "name": "liquidation",
+        "level": 45,
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      },
+      {
+        "name": "entrainment",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/494/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "hydro-pump",
+        "url": "https://pokeapi.co/api/v2/move/56/"
+      },
+      {
+        "name": "surf",
+        "url": "https://pokeapi.co/api/v2/move/57/"
+      },
+      {
+        "name": "ice-beam",
+        "url": "https://pokeapi.co/api/v2/move/58/"
+      },
+      {
+        "name": "blizzard",
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      },
+      {
+        "name": "waterfall",
+        "url": "https://pokeapi.co/api/v2/move/127/"
+      },
+      {
+        "name": "leech-life",
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "icy-wind",
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "giga-drain",
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "endeavor",
+        "url": "https://pokeapi.co/api/v2/move/283/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "water-pulse",
+        "url": "https://pokeapi.co/api/v2/move/352/"
+      },
+      {
+        "name": "poison-jab",
+        "url": "https://pokeapi.co/api/v2/move/398/"
+      },
+      {
+        "name": "x-scissor",
+        "url": "https://pokeapi.co/api/v2/move/404/"
+      },
+      {
+        "name": "bug-buzz",
+        "url": "https://pokeapi.co/api/v2/move/405/"
+      },
+      {
+        "name": "bug-bite",
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      },
+      {
+        "name": "lunge",
+        "url": "https://pokeapi.co/api/v2/move/679/"
+      },
+      {
+        "name": "liquidation",
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      },
+      {
+        "name": "skitter-smack",
+        "url": "https://pokeapi.co/api/v2/move/806/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "pounce",
+        "url": "https://pokeapi.co/api/v2/move/884/"
+      },
+      {
+        "name": "trailblaze",
+        "url": "https://pokeapi.co/api/v2/move/885/"
+      },
+      {
+        "name": "chilling-water",
+        "url": "https://pokeapi.co/api/v2/move/886/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "surf",
+        "url": "https://pokeapi.co/api/v2/move/57/"
+      },
+      {
+        "name": "ice-beam",
+        "url": "https://pokeapi.co/api/v2/move/58/"
+      },
+      {
+        "name": "blizzard",
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      },
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "double-team",
+        "url": "https://pokeapi.co/api/v2/move/104/"
+      },
+      {
+        "name": "waterfall",
+        "url": "https://pokeapi.co/api/v2/move/127/"
+      },
+      {
+        "name": "leech-life",
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "swagger",
+        "url": "https://pokeapi.co/api/v2/move/207/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "return",
+        "url": "https://pokeapi.co/api/v2/move/216/"
+      },
+      {
+        "name": "frustration",
+        "url": "https://pokeapi.co/api/v2/move/218/"
+      },
+      {
+        "name": "hidden-power",
+        "url": "https://pokeapi.co/api/v2/move/237/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "poison-jab",
+        "url": "https://pokeapi.co/api/v2/move/398/"
+      },
+      {
+        "name": "x-scissor",
+        "url": "https://pokeapi.co/api/v2/move/404/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "scald",
+        "url": "https://pokeapi.co/api/v2/move/503/"
+      },
+      {
+        "name": "frost-breath",
+        "url": "https://pokeapi.co/api/v2/move/524/"
+      },
+      {
+        "name": "confide",
+        "url": "https://pokeapi.co/api/v2/move/590/"
+      },
+      {
+        "name": "infestation",
+        "url": "https://pokeapi.co/api/v2/move/611/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "surf",
+        "url": "https://pokeapi.co/api/v2/move/57/"
+      },
+      {
+        "name": "ice-beam",
+        "url": "https://pokeapi.co/api/v2/move/58/"
+      },
+      {
+        "name": "blizzard",
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      },
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "double-team",
+        "url": "https://pokeapi.co/api/v2/move/104/"
+      },
+      {
+        "name": "waterfall",
+        "url": "https://pokeapi.co/api/v2/move/127/"
+      },
+      {
+        "name": "leech-life",
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "swagger",
+        "url": "https://pokeapi.co/api/v2/move/207/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "return",
+        "url": "https://pokeapi.co/api/v2/move/216/"
+      },
+      {
+        "name": "frustration",
+        "url": "https://pokeapi.co/api/v2/move/218/"
+      },
+      {
+        "name": "hidden-power",
+        "url": "https://pokeapi.co/api/v2/move/237/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "poison-jab",
+        "url": "https://pokeapi.co/api/v2/move/398/"
+      },
+      {
+        "name": "x-scissor",
+        "url": "https://pokeapi.co/api/v2/move/404/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "scald",
+        "url": "https://pokeapi.co/api/v2/move/503/"
+      },
+      {
+        "name": "frost-breath",
+        "url": "https://pokeapi.co/api/v2/move/524/"
+      },
+      {
+        "name": "confide",
+        "url": "https://pokeapi.co/api/v2/move/590/"
+      },
+      {
+        "name": "infestation",
+        "url": "https://pokeapi.co/api/v2/move/611/"
+      }
+    ],
+    "gen-sword-shield": [
+      {
+        "name": "surf",
+        "url": "https://pokeapi.co/api/v2/move/57/"
+      },
+      {
+        "name": "ice-beam",
+        "url": "https://pokeapi.co/api/v2/move/58/"
+      },
+      {
+        "name": "blizzard",
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      },
+      {
+        "name": "waterfall",
+        "url": "https://pokeapi.co/api/v2/move/127/"
+      },
+      {
+        "name": "leech-life",
+        "url": "https://pokeapi.co/api/v2/move/141/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "snore",
+        "url": "https://pokeapi.co/api/v2/move/173/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "icy-wind",
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "giga-drain",
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "poison-jab",
+        "url": "https://pokeapi.co/api/v2/move/398/"
+      },
+      {
+        "name": "x-scissor",
+        "url": "https://pokeapi.co/api/v2/move/404/"
+      },
+      {
+        "name": "bug-buzz",
+        "url": "https://pokeapi.co/api/v2/move/405/"
+      },
+      {
+        "name": "wonder-room",
+        "url": "https://pokeapi.co/api/v2/move/472/"
+      },
+      {
+        "name": "magic-room",
+        "url": "https://pokeapi.co/api/v2/move/478/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "scald",
+        "url": "https://pokeapi.co/api/v2/move/503/"
+      },
+      {
+        "name": "liquidation",
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      }
+    ]
+  },
+  "genus": "Water Bubble Pokémon",
+  "flavorText": "It crawls onto the land in search of food.\nIts water bubble allows it to breathe and\nprotects its soft head."
+}

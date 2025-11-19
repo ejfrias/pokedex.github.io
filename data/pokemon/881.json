@@ -1,0 +1,296 @@
+{
+  "id": 881,
+  "name": "arctozolt",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/881.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/881.png",
+  "types": [
+    "electric",
+    "ice"
+  ],
+  "height": 2.3,
+  "weight": 150,
+  "stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "specialAttack": 90,
+    "specialDefense": 80,
+    "speed": 55,
+    "total": 505
+  },
+  "abilities": [
+    {
+      "name": "volt-absorb",
+      "isHidden": false
+    },
+    {
+      "name": "static",
+      "isHidden": false
+    },
+    {
+      "name": "slush-rush",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "fighting",
+      "fire",
+      "ground",
+      "rock"
+    ],
+    "resistances": [
+      "electric",
+      "flying",
+      "ice",
+      "steel"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "arctozolt",
+      "id": 881
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-sword-shield": [
+      {
+        "name": "thunder-shock",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/84/"
+      },
+      {
+        "name": "powder-snow",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/181/"
+      },
+      {
+        "name": "charge",
+        "level": 7,
+        "url": "https://pokeapi.co/api/v2/move/268/"
+      },
+      {
+        "name": "echoed-voice",
+        "level": 14,
+        "url": "https://pokeapi.co/api/v2/move/497/"
+      },
+      {
+        "name": "ancient-power",
+        "level": 21,
+        "url": "https://pokeapi.co/api/v2/move/246/"
+      },
+      {
+        "name": "pluck",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/365/"
+      },
+      {
+        "name": "avalanche",
+        "level": 35,
+        "url": "https://pokeapi.co/api/v2/move/419/"
+      },
+      {
+        "name": "freeze-dry",
+        "level": 42,
+        "url": "https://pokeapi.co/api/v2/move/573/"
+      },
+      {
+        "name": "slam",
+        "level": 49,
+        "url": "https://pokeapi.co/api/v2/move/21/"
+      },
+      {
+        "name": "discharge",
+        "level": 56,
+        "url": "https://pokeapi.co/api/v2/move/435/"
+      },
+      {
+        "name": "bolt-beak",
+        "level": 63,
+        "url": "https://pokeapi.co/api/v2/move/754/"
+      },
+      {
+        "name": "icicle-crash",
+        "level": 70,
+        "url": "https://pokeapi.co/api/v2/move/556/"
+      },
+      {
+        "name": "blizzard",
+        "level": 77,
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-sword-shield": [
+      {
+        "name": "mega-punch",
+        "url": "https://pokeapi.co/api/v2/move/5/"
+      },
+      {
+        "name": "thunder-punch",
+        "url": "https://pokeapi.co/api/v2/move/9/"
+      },
+      {
+        "name": "mega-kick",
+        "url": "https://pokeapi.co/api/v2/move/25/"
+      },
+      {
+        "name": "body-slam",
+        "url": "https://pokeapi.co/api/v2/move/34/"
+      },
+      {
+        "name": "hydro-pump",
+        "url": "https://pokeapi.co/api/v2/move/56/"
+      },
+      {
+        "name": "surf",
+        "url": "https://pokeapi.co/api/v2/move/57/"
+      },
+      {
+        "name": "ice-beam",
+        "url": "https://pokeapi.co/api/v2/move/58/"
+      },
+      {
+        "name": "blizzard",
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "low-kick",
+        "url": "https://pokeapi.co/api/v2/move/67/"
+      },
+      {
+        "name": "thunderbolt",
+        "url": "https://pokeapi.co/api/v2/move/85/"
+      },
+      {
+        "name": "thunder-wave",
+        "url": "https://pokeapi.co/api/v2/move/86/"
+      },
+      {
+        "name": "thunder",
+        "url": "https://pokeapi.co/api/v2/move/87/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "rock-slide",
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "snore",
+        "url": "https://pokeapi.co/api/v2/move/173/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "icy-wind",
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "iron-tail",
+        "url": "https://pokeapi.co/api/v2/move/231/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "hail",
+        "url": "https://pokeapi.co/api/v2/move/258/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "taunt",
+        "url": "https://pokeapi.co/api/v2/move/269/"
+      },
+      {
+        "name": "hyper-voice",
+        "url": "https://pokeapi.co/api/v2/move/304/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "icicle-spear",
+        "url": "https://pokeapi.co/api/v2/move/333/"
+      },
+      {
+        "name": "rock-blast",
+        "url": "https://pokeapi.co/api/v2/move/350/"
+      },
+      {
+        "name": "payback",
+        "url": "https://pokeapi.co/api/v2/move/371/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "avalanche",
+        "url": "https://pokeapi.co/api/v2/move/419/"
+      },
+      {
+        "name": "thunder-fang",
+        "url": "https://pokeapi.co/api/v2/move/422/"
+      },
+      {
+        "name": "ice-fang",
+        "url": "https://pokeapi.co/api/v2/move/423/"
+      },
+      {
+        "name": "stone-edge",
+        "url": "https://pokeapi.co/api/v2/move/444/"
+      },
+      {
+        "name": "electro-ball",
+        "url": "https://pokeapi.co/api/v2/move/486/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "bulldoze",
+        "url": "https://pokeapi.co/api/v2/move/523/"
+      },
+      {
+        "name": "wild-charge",
+        "url": "https://pokeapi.co/api/v2/move/528/"
+      },
+      {
+        "name": "stomping-tantrum",
+        "url": "https://pokeapi.co/api/v2/move/707/"
+      }
+    ]
+  },
+  "genus": "Fossil Pokémon",
+  "flavorText": "The shaking of its freezing upper half is what\ngenerates its electricity. It has a hard time\nwalking around."
+}

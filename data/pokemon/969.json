@@ -1,0 +1,273 @@
+{
+  "id": 969,
+  "name": "glimmet",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/969.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/969.png",
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "height": 0.7,
+  "weight": 8,
+  "stats": {
+    "hp": 48,
+    "attack": 35,
+    "defense": 42,
+    "specialAttack": 105,
+    "specialDefense": 60,
+    "speed": 60,
+    "total": 350
+  },
+  "abilities": [
+    {
+      "name": "toxic-debris",
+      "isHidden": false
+    },
+    {
+      "name": "corrosion",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "ground",
+      "psychic",
+      "steel",
+      "water"
+    ],
+    "resistances": [
+      "bug",
+      "fairy",
+      "fighting",
+      "fire",
+      "flying",
+      "grass",
+      "normal",
+      "poison"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "glimmet",
+      "id": 969
+    },
+    {
+      "name": "glimmora",
+      "id": 970
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "rock-throw",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/88/"
+      },
+      {
+        "name": "harden",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/106/"
+      },
+      {
+        "name": "smack-down",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/479/"
+      },
+      {
+        "name": "acid-spray",
+        "level": 7,
+        "url": "https://pokeapi.co/api/v2/move/491/"
+      },
+      {
+        "name": "ancient-power",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/246/"
+      },
+      {
+        "name": "rock-polish",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/397/"
+      },
+      {
+        "name": "stealth-rock",
+        "level": 18,
+        "url": "https://pokeapi.co/api/v2/move/446/"
+      },
+      {
+        "name": "venoshock",
+        "level": 22,
+        "url": "https://pokeapi.co/api/v2/move/474/"
+      },
+      {
+        "name": "sandstorm",
+        "level": 26,
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "self-destruct",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/120/"
+      },
+      {
+        "name": "rock-slide",
+        "level": 33,
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "power-gem",
+        "level": 37,
+        "url": "https://pokeapi.co/api/v2/move/408/"
+      },
+      {
+        "name": "acid-armor",
+        "level": 41,
+        "url": "https://pokeapi.co/api/v2/move/151/"
+      },
+      {
+        "name": "sludge-wave",
+        "level": 46,
+        "url": "https://pokeapi.co/api/v2/move/482/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "confuse-ray",
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "rock-slide",
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "sludge-bomb",
+        "url": "https://pokeapi.co/api/v2/move/188/"
+      },
+      {
+        "name": "spikes",
+        "url": "https://pokeapi.co/api/v2/move/191/"
+      },
+      {
+        "name": "sandstorm",
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "sand-tomb",
+        "url": "https://pokeapi.co/api/v2/move/328/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "rock-blast",
+        "url": "https://pokeapi.co/api/v2/move/350/"
+      },
+      {
+        "name": "toxic-spikes",
+        "url": "https://pokeapi.co/api/v2/move/390/"
+      },
+      {
+        "name": "power-gem",
+        "url": "https://pokeapi.co/api/v2/move/408/"
+      },
+      {
+        "name": "gunk-shot",
+        "url": "https://pokeapi.co/api/v2/move/441/"
+      },
+      {
+        "name": "stone-edge",
+        "url": "https://pokeapi.co/api/v2/move/444/"
+      },
+      {
+        "name": "stealth-rock",
+        "url": "https://pokeapi.co/api/v2/move/446/"
+      },
+      {
+        "name": "venoshock",
+        "url": "https://pokeapi.co/api/v2/move/474/"
+      },
+      {
+        "name": "smack-down",
+        "url": "https://pokeapi.co/api/v2/move/479/"
+      },
+      {
+        "name": "sludge-wave",
+        "url": "https://pokeapi.co/api/v2/move/482/"
+      },
+      {
+        "name": "acid-spray",
+        "url": "https://pokeapi.co/api/v2/move/491/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "meteor-beam",
+        "url": "https://pokeapi.co/api/v2/move/800/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      }
+    ]
+  },
+  "genus": "Ore Pokémon",
+  "flavorText": "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison."
+}

@@ -1,0 +1,611 @@
+{
+  "id": 755,
+  "name": "morelull",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/755.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/755.png",
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "height": 0.2,
+  "weight": 1.5,
+  "stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 55,
+    "specialAttack": 65,
+    "specialDefense": 75,
+    "speed": 15,
+    "total": 285
+  },
+  "abilities": [
+    {
+      "name": "illuminate",
+      "isHidden": false
+    },
+    {
+      "name": "effect-spore",
+      "isHidden": false
+    },
+    {
+      "name": "rain-dish",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "fire",
+      "flying",
+      "ice",
+      "poison",
+      "steel"
+    ],
+    "resistances": [
+      "bug",
+      "dark",
+      "electric",
+      "fighting",
+      "grass",
+      "ground",
+      "water"
+    ],
+    "immunities": [
+      "dragon"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "morelull",
+      "id": 755
+    },
+    {
+      "name": "shiinotic",
+      "id": 756
+    }
+  ],
+  "locations": {
+    "sun": [
+      "Alola Route 11 Area",
+      "Brooklet Hill North",
+      "Lush Jungle North",
+      "Lush Jungle South",
+      "Lush Jungle West"
+    ],
+    "moon": [
+      "Alola Route 11 Area",
+      "Brooklet Hill North",
+      "Lush Jungle North",
+      "Lush Jungle South",
+      "Lush Jungle West"
+    ],
+    "ultra-sun": [
+      "Brooklet Hill North",
+      "Brooklet Hill South",
+      "Lush Jungle North",
+      "Lush Jungle South",
+      "Lush Jungle West"
+    ],
+    "ultra-moon": [
+      "Brooklet Hill North",
+      "Brooklet Hill South",
+      "Lush Jungle North",
+      "Lush Jungle South",
+      "Lush Jungle West"
+    ]
+  },
+  "movesByLevel": {
+    "gen-sun-moon": [
+      {
+        "name": "absorb",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/71/"
+      },
+      {
+        "name": "astonish",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/310/"
+      },
+      {
+        "name": "flash",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/148/"
+      },
+      {
+        "name": "moonlight",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/236/"
+      },
+      {
+        "name": "mega-drain",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/72/"
+      },
+      {
+        "name": "sleep-powder",
+        "level": 18,
+        "url": "https://pokeapi.co/api/v2/move/79/"
+      },
+      {
+        "name": "ingrain",
+        "level": 22,
+        "url": "https://pokeapi.co/api/v2/move/275/"
+      },
+      {
+        "name": "confuse-ray",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "giga-drain",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "strength-sap",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/668/"
+      },
+      {
+        "name": "spore",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/147/"
+      },
+      {
+        "name": "moonblast",
+        "level": 39,
+        "url": "https://pokeapi.co/api/v2/move/585/"
+      },
+      {
+        "name": "dream-eater",
+        "level": 43,
+        "url": "https://pokeapi.co/api/v2/move/138/"
+      },
+      {
+        "name": "spotlight",
+        "level": 46,
+        "url": "https://pokeapi.co/api/v2/move/671/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "absorb",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/71/"
+      },
+      {
+        "name": "astonish",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/310/"
+      },
+      {
+        "name": "flash",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/148/"
+      },
+      {
+        "name": "moonlight",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/236/"
+      },
+      {
+        "name": "mega-drain",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/72/"
+      },
+      {
+        "name": "sleep-powder",
+        "level": 18,
+        "url": "https://pokeapi.co/api/v2/move/79/"
+      },
+      {
+        "name": "ingrain",
+        "level": 22,
+        "url": "https://pokeapi.co/api/v2/move/275/"
+      },
+      {
+        "name": "confuse-ray",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "giga-drain",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "strength-sap",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/668/"
+      },
+      {
+        "name": "spore",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/147/"
+      },
+      {
+        "name": "moonblast",
+        "level": 39,
+        "url": "https://pokeapi.co/api/v2/move/585/"
+      },
+      {
+        "name": "dream-eater",
+        "level": 43,
+        "url": "https://pokeapi.co/api/v2/move/138/"
+      },
+      {
+        "name": "spotlight",
+        "level": 46,
+        "url": "https://pokeapi.co/api/v2/move/671/"
+      }
+    ],
+    "gen-sword-shield": [
+      {
+        "name": "absorb",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/71/"
+      },
+      {
+        "name": "astonish",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/310/"
+      },
+      {
+        "name": "confuse-ray",
+        "level": 4,
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "ingrain",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/275/"
+      },
+      {
+        "name": "mega-drain",
+        "level": 12,
+        "url": "https://pokeapi.co/api/v2/move/72/"
+      },
+      {
+        "name": "sleep-powder",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/79/"
+      },
+      {
+        "name": "moonlight",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/236/"
+      },
+      {
+        "name": "strength-sap",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/668/"
+      },
+      {
+        "name": "giga-drain",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "spore",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/147/"
+      },
+      {
+        "name": "moonblast",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/585/"
+      },
+      {
+        "name": "dream-eater",
+        "level": 44,
+        "url": "https://pokeapi.co/api/v2/move/138/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-sun-moon": [
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "thunder-wave",
+        "url": "https://pokeapi.co/api/v2/move/86/"
+      },
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "double-team",
+        "url": "https://pokeapi.co/api/v2/move/104/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "dream-eater",
+        "url": "https://pokeapi.co/api/v2/move/138/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "sludge-bomb",
+        "url": "https://pokeapi.co/api/v2/move/188/"
+      },
+      {
+        "name": "swagger",
+        "url": "https://pokeapi.co/api/v2/move/207/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "return",
+        "url": "https://pokeapi.co/api/v2/move/216/"
+      },
+      {
+        "name": "frustration",
+        "url": "https://pokeapi.co/api/v2/move/218/"
+      },
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "hidden-power",
+        "url": "https://pokeapi.co/api/v2/move/237/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "nature-power",
+        "url": "https://pokeapi.co/api/v2/move/267/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "confide",
+        "url": "https://pokeapi.co/api/v2/move/590/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "thunder-wave",
+        "url": "https://pokeapi.co/api/v2/move/86/"
+      },
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "double-team",
+        "url": "https://pokeapi.co/api/v2/move/104/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "dream-eater",
+        "url": "https://pokeapi.co/api/v2/move/138/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "sludge-bomb",
+        "url": "https://pokeapi.co/api/v2/move/188/"
+      },
+      {
+        "name": "swagger",
+        "url": "https://pokeapi.co/api/v2/move/207/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "return",
+        "url": "https://pokeapi.co/api/v2/move/216/"
+      },
+      {
+        "name": "frustration",
+        "url": "https://pokeapi.co/api/v2/move/218/"
+      },
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "hidden-power",
+        "url": "https://pokeapi.co/api/v2/move/237/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "nature-power",
+        "url": "https://pokeapi.co/api/v2/move/267/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "confide",
+        "url": "https://pokeapi.co/api/v2/move/590/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      }
+    ],
+    "gen-sword-shield": [
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "thunder-wave",
+        "url": "https://pokeapi.co/api/v2/move/86/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "amnesia",
+        "url": "https://pokeapi.co/api/v2/move/133/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "snore",
+        "url": "https://pokeapi.co/api/v2/move/173/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "sludge-bomb",
+        "url": "https://pokeapi.co/api/v2/move/188/"
+      },
+      {
+        "name": "giga-drain",
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "seed-bomb",
+        "url": "https://pokeapi.co/api/v2/move/402/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "wonder-room",
+        "url": "https://pokeapi.co/api/v2/move/472/"
+      },
+      {
+        "name": "magic-room",
+        "url": "https://pokeapi.co/api/v2/move/478/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "draining-kiss",
+        "url": "https://pokeapi.co/api/v2/move/577/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "pollen-puff",
+        "url": "https://pokeapi.co/api/v2/move/676/"
+      }
+    ]
+  },
+  "genus": "Illuminating Pokémon",
+  "flavorText": "It scatters spores that flicker and glow. Anyone\nseeing these lights falls into a deep slumber."
+}

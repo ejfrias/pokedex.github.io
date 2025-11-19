@@ -1,0 +1,494 @@
+{
+  "id": 844,
+  "name": "sandaconda",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/844.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/844.png",
+  "types": [
+    "ground"
+  ],
+  "height": 3.8,
+  "weight": 65.5,
+  "stats": {
+    "hp": 72,
+    "attack": 107,
+    "defense": 125,
+    "specialAttack": 65,
+    "specialDefense": 70,
+    "speed": 71,
+    "total": 510
+  },
+  "abilities": [
+    {
+      "name": "sand-spit",
+      "isHidden": false
+    },
+    {
+      "name": "shed-skin",
+      "isHidden": false
+    },
+    {
+      "name": "sand-veil",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "grass",
+      "ice",
+      "water"
+    ],
+    "resistances": [
+      "poison",
+      "rock"
+    ],
+    "immunities": [
+      "electric"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "silicobra",
+      "id": 843
+    },
+    {
+      "name": "sandaconda",
+      "id": 844
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-sword-shield": [
+      {
+        "name": "sand-attack",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/28/"
+      },
+      {
+        "name": "wrap",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/35/"
+      },
+      {
+        "name": "minimize",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/107/"
+      },
+      {
+        "name": "skull-bash",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/130/"
+      },
+      {
+        "name": "brutal-swing",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/693/"
+      },
+      {
+        "name": "bulldoze",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/523/"
+      },
+      {
+        "name": "headbutt",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/29/"
+      },
+      {
+        "name": "glare",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/137/"
+      },
+      {
+        "name": "dig",
+        "level": 30,
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "sandstorm",
+        "level": 35,
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "slam",
+        "level": 42,
+        "url": "https://pokeapi.co/api/v2/move/21/"
+      },
+      {
+        "name": "coil",
+        "level": 49,
+        "url": "https://pokeapi.co/api/v2/move/489/"
+      },
+      {
+        "name": "sand-tomb",
+        "level": 51,
+        "url": "https://pokeapi.co/api/v2/move/328/"
+      }
+    ],
+    "gen-scarlet-violet": [
+      {
+        "name": "sand-attack",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/28/"
+      },
+      {
+        "name": "wrap",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/35/"
+      },
+      {
+        "name": "minimize",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/107/"
+      },
+      {
+        "name": "brutal-swing",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/693/"
+      },
+      {
+        "name": "bulldoze",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/523/"
+      },
+      {
+        "name": "headbutt",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/29/"
+      },
+      {
+        "name": "glare",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/137/"
+      },
+      {
+        "name": "dig",
+        "level": 30,
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "sandstorm",
+        "level": 35,
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "slam",
+        "level": 42,
+        "url": "https://pokeapi.co/api/v2/move/21/"
+      },
+      {
+        "name": "coil",
+        "level": 49,
+        "url": "https://pokeapi.co/api/v2/move/489/"
+      },
+      {
+        "name": "sand-tomb",
+        "level": 51,
+        "url": "https://pokeapi.co/api/v2/move/328/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "body-slam",
+        "url": "https://pokeapi.co/api/v2/move/34/"
+      },
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "earthquake",
+        "url": "https://pokeapi.co/api/v2/move/89/"
+      },
+      {
+        "name": "dig",
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "rock-slide",
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "scary-face",
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "mud-slap",
+        "url": "https://pokeapi.co/api/v2/move/189/"
+      },
+      {
+        "name": "outrage",
+        "url": "https://pokeapi.co/api/v2/move/200/"
+      },
+      {
+        "name": "sandstorm",
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "endeavor",
+        "url": "https://pokeapi.co/api/v2/move/283/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "sand-tomb",
+        "url": "https://pokeapi.co/api/v2/move/328/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "poison-tail",
+        "url": "https://pokeapi.co/api/v2/move/342/"
+      },
+      {
+        "name": "rock-blast",
+        "url": "https://pokeapi.co/api/v2/move/350/"
+      },
+      {
+        "name": "earth-power",
+        "url": "https://pokeapi.co/api/v2/move/414/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "thunder-fang",
+        "url": "https://pokeapi.co/api/v2/move/422/"
+      },
+      {
+        "name": "fire-fang",
+        "url": "https://pokeapi.co/api/v2/move/424/"
+      },
+      {
+        "name": "zen-headbutt",
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "iron-head",
+        "url": "https://pokeapi.co/api/v2/move/442/"
+      },
+      {
+        "name": "stone-edge",
+        "url": "https://pokeapi.co/api/v2/move/444/"
+      },
+      {
+        "name": "stealth-rock",
+        "url": "https://pokeapi.co/api/v2/move/446/"
+      },
+      {
+        "name": "bulldoze",
+        "url": "https://pokeapi.co/api/v2/move/523/"
+      },
+      {
+        "name": "drill-run",
+        "url": "https://pokeapi.co/api/v2/move/529/"
+      },
+      {
+        "name": "hurricane",
+        "url": "https://pokeapi.co/api/v2/move/542/"
+      },
+      {
+        "name": "high-horsepower",
+        "url": "https://pokeapi.co/api/v2/move/667/"
+      },
+      {
+        "name": "body-press",
+        "url": "https://pokeapi.co/api/v2/move/776/"
+      },
+      {
+        "name": "scale-shot",
+        "url": "https://pokeapi.co/api/v2/move/799/"
+      },
+      {
+        "name": "skitter-smack",
+        "url": "https://pokeapi.co/api/v2/move/806/"
+      },
+      {
+        "name": "scorching-sands",
+        "url": "https://pokeapi.co/api/v2/move/815/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      }
+    ],
+    "gen-sword-shield": [
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "earthquake",
+        "url": "https://pokeapi.co/api/v2/move/89/"
+      },
+      {
+        "name": "dig",
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "screech",
+        "url": "https://pokeapi.co/api/v2/move/103/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "rock-slide",
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "snore",
+        "url": "https://pokeapi.co/api/v2/move/173/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "outrage",
+        "url": "https://pokeapi.co/api/v2/move/200/"
+      },
+      {
+        "name": "sandstorm",
+        "url": "https://pokeapi.co/api/v2/move/201/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "attract",
+        "url": "https://pokeapi.co/api/v2/move/213/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "sand-tomb",
+        "url": "https://pokeapi.co/api/v2/move/328/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "rock-blast",
+        "url": "https://pokeapi.co/api/v2/move/350/"
+      },
+      {
+        "name": "earth-power",
+        "url": "https://pokeapi.co/api/v2/move/414/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "fire-fang",
+        "url": "https://pokeapi.co/api/v2/move/424/"
+      },
+      {
+        "name": "zen-headbutt",
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "iron-head",
+        "url": "https://pokeapi.co/api/v2/move/442/"
+      },
+      {
+        "name": "stone-edge",
+        "url": "https://pokeapi.co/api/v2/move/444/"
+      },
+      {
+        "name": "stealth-rock",
+        "url": "https://pokeapi.co/api/v2/move/446/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "bulldoze",
+        "url": "https://pokeapi.co/api/v2/move/523/"
+      },
+      {
+        "name": "drill-run",
+        "url": "https://pokeapi.co/api/v2/move/529/"
+      },
+      {
+        "name": "hurricane",
+        "url": "https://pokeapi.co/api/v2/move/542/"
+      },
+      {
+        "name": "high-horsepower",
+        "url": "https://pokeapi.co/api/v2/move/667/"
+      },
+      {
+        "name": "brutal-swing",
+        "url": "https://pokeapi.co/api/v2/move/693/"
+      },
+      {
+        "name": "body-press",
+        "url": "https://pokeapi.co/api/v2/move/776/"
+      }
+    ]
+  },
+  "genus": "Sand Snake Pokémon",
+  "flavorText": "When it contracts its body, over 220 pounds of\nsand sprays from its nose. If it ever runs out of\nsand, it becomes disheartened."
+}

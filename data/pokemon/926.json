@@ -1,0 +1,276 @@
+{
+  "id": 926,
+  "name": "fidough",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/926.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/926.png",
+  "types": [
+    "fairy"
+  ],
+  "height": 0.3,
+  "weight": 10.9,
+  "stats": {
+    "hp": 37,
+    "attack": 55,
+    "defense": 70,
+    "specialAttack": 30,
+    "specialDefense": 55,
+    "speed": 65,
+    "total": 312
+  },
+  "abilities": [
+    {
+      "name": "own-tempo",
+      "isHidden": false
+    },
+    {
+      "name": "klutz",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "poison",
+      "steel"
+    ],
+    "resistances": [
+      "bug",
+      "dark",
+      "fighting"
+    ],
+    "immunities": [
+      "dragon"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "fidough",
+      "id": 926
+    },
+    {
+      "name": "dachsbun",
+      "id": 927
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "growl",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/45/"
+      },
+      {
+        "name": "lick",
+        "level": 3,
+        "url": "https://pokeapi.co/api/v2/move/122/"
+      },
+      {
+        "name": "tail-whip",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/39/"
+      },
+      {
+        "name": "covet",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/343/"
+      },
+      {
+        "name": "bite",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "baby-doll-eyes",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/608/"
+      },
+      {
+        "name": "play-rough",
+        "level": 18,
+        "url": "https://pokeapi.co/api/v2/move/583/"
+      },
+      {
+        "name": "work-up",
+        "level": 22,
+        "url": "https://pokeapi.co/api/v2/move/526/"
+      },
+      {
+        "name": "baton-pass",
+        "level": 26,
+        "url": "https://pokeapi.co/api/v2/move/226/"
+      },
+      {
+        "name": "roar",
+        "level": 30,
+        "url": "https://pokeapi.co/api/v2/move/46/"
+      },
+      {
+        "name": "double-edge",
+        "level": 33,
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "charm",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "crunch",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "last-resort",
+        "level": 45,
+        "url": "https://pokeapi.co/api/v2/move/387/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "body-slam",
+        "url": "https://pokeapi.co/api/v2/move/34/"
+      },
+      {
+        "name": "take-down",
+        "url": "https://pokeapi.co/api/v2/move/36/"
+      },
+      {
+        "name": "double-edge",
+        "url": "https://pokeapi.co/api/v2/move/38/"
+      },
+      {
+        "name": "roar",
+        "url": "https://pokeapi.co/api/v2/move/46/"
+      },
+      {
+        "name": "dig",
+        "url": "https://pokeapi.co/api/v2/move/91/"
+      },
+      {
+        "name": "agility",
+        "url": "https://pokeapi.co/api/v2/move/97/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "mud-slap",
+        "url": "https://pokeapi.co/api/v2/move/189/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "charm",
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "baton-pass",
+        "url": "https://pokeapi.co/api/v2/move/226/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "psych-up",
+        "url": "https://pokeapi.co/api/v2/move/244/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "helping-hand",
+        "url": "https://pokeapi.co/api/v2/move/270/"
+      },
+      {
+        "name": "endeavor",
+        "url": "https://pokeapi.co/api/v2/move/283/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "thunder-fang",
+        "url": "https://pokeapi.co/api/v2/move/422/"
+      },
+      {
+        "name": "ice-fang",
+        "url": "https://pokeapi.co/api/v2/move/423/"
+      },
+      {
+        "name": "fire-fang",
+        "url": "https://pokeapi.co/api/v2/move/424/"
+      },
+      {
+        "name": "snarl",
+        "url": "https://pokeapi.co/api/v2/move/555/"
+      },
+      {
+        "name": "misty-terrain",
+        "url": "https://pokeapi.co/api/v2/move/581/"
+      },
+      {
+        "name": "play-rough",
+        "url": "https://pokeapi.co/api/v2/move/583/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "psychic-fangs",
+        "url": "https://pokeapi.co/api/v2/move/706/"
+      },
+      {
+        "name": "stomping-tantrum",
+        "url": "https://pokeapi.co/api/v2/move/707/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "trailblaze",
+        "url": "https://pokeapi.co/api/v2/move/885/"
+      },
+      {
+        "name": "alluring-voice",
+        "url": "https://pokeapi.co/api/v2/move/914/"
+      }
+    ]
+  },
+  "genus": "Puppy Pokémon",
+  "flavorText": "This Pokémon is smooth and moist to the touch. Yeast in Fidough’s breath induces fermentation in the Pokémon’s vicinity."
+}

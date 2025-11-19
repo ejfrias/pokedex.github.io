@@ -1,0 +1,272 @@
+{
+  "id": 939,
+  "name": "bellibolt",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/939.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/939.png",
+  "types": [
+    "electric"
+  ],
+  "height": 1.2,
+  "weight": 113,
+  "stats": {
+    "hp": 109,
+    "attack": 64,
+    "defense": 91,
+    "specialAttack": 103,
+    "specialDefense": 83,
+    "speed": 45,
+    "total": 495
+  },
+  "abilities": [
+    {
+      "name": "electromorphosis",
+      "isHidden": false
+    },
+    {
+      "name": "static",
+      "isHidden": false
+    },
+    {
+      "name": "damp",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "ground"
+    ],
+    "resistances": [
+      "electric",
+      "flying",
+      "steel"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "tadbulb",
+      "id": 938
+    },
+    {
+      "name": "bellibolt",
+      "id": 939
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "mud-slap",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/189/"
+      },
+      {
+        "name": "slack-off",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/303/"
+      },
+      {
+        "name": "thunder-shock",
+        "level": 7,
+        "url": "https://pokeapi.co/api/v2/move/84/"
+      },
+      {
+        "name": "water-gun",
+        "level": 11,
+        "url": "https://pokeapi.co/api/v2/move/55/"
+      },
+      {
+        "name": "charge",
+        "level": 17,
+        "url": "https://pokeapi.co/api/v2/move/268/"
+      },
+      {
+        "name": "spark",
+        "level": 21,
+        "url": "https://pokeapi.co/api/v2/move/209/"
+      },
+      {
+        "name": "mud-shot",
+        "level": 24,
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "flail",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/175/"
+      },
+      {
+        "name": "discharge",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/435/"
+      },
+      {
+        "name": "weather-ball",
+        "level": 36,
+        "url": "https://pokeapi.co/api/v2/move/311/"
+      },
+      {
+        "name": "electric-terrain",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/604/"
+      },
+      {
+        "name": "sucker-punch",
+        "level": 45,
+        "url": "https://pokeapi.co/api/v2/move/389/"
+      },
+      {
+        "name": "zap-cannon",
+        "level": 50,
+        "url": "https://pokeapi.co/api/v2/move/192/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "thunderbolt",
+        "url": "https://pokeapi.co/api/v2/move/85/"
+      },
+      {
+        "name": "thunder-wave",
+        "url": "https://pokeapi.co/api/v2/move/86/"
+      },
+      {
+        "name": "thunder",
+        "url": "https://pokeapi.co/api/v2/move/87/"
+      },
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "confuse-ray",
+        "url": "https://pokeapi.co/api/v2/move/109/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "swift",
+        "url": "https://pokeapi.co/api/v2/move/129/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "mud-slap",
+        "url": "https://pokeapi.co/api/v2/move/189/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "charge",
+        "url": "https://pokeapi.co/api/v2/move/268/"
+      },
+      {
+        "name": "hyper-voice",
+        "url": "https://pokeapi.co/api/v2/move/304/"
+      },
+      {
+        "name": "weather-ball",
+        "url": "https://pokeapi.co/api/v2/move/311/"
+      },
+      {
+        "name": "muddy-water",
+        "url": "https://pokeapi.co/api/v2/move/330/"
+      },
+      {
+        "name": "mud-shot",
+        "url": "https://pokeapi.co/api/v2/move/341/"
+      },
+      {
+        "name": "water-pulse",
+        "url": "https://pokeapi.co/api/v2/move/352/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "charge-beam",
+        "url": "https://pokeapi.co/api/v2/move/451/"
+      },
+      {
+        "name": "electro-ball",
+        "url": "https://pokeapi.co/api/v2/move/486/"
+      },
+      {
+        "name": "acid-spray",
+        "url": "https://pokeapi.co/api/v2/move/491/"
+      },
+      {
+        "name": "volt-switch",
+        "url": "https://pokeapi.co/api/v2/move/521/"
+      },
+      {
+        "name": "electroweb",
+        "url": "https://pokeapi.co/api/v2/move/527/"
+      },
+      {
+        "name": "wild-charge",
+        "url": "https://pokeapi.co/api/v2/move/528/"
+      },
+      {
+        "name": "eerie-impulse",
+        "url": "https://pokeapi.co/api/v2/move/598/"
+      },
+      {
+        "name": "electric-terrain",
+        "url": "https://pokeapi.co/api/v2/move/604/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "chilling-water",
+        "url": "https://pokeapi.co/api/v2/move/886/"
+      },
+      {
+        "name": "supercell-slam",
+        "url": "https://pokeapi.co/api/v2/move/916/"
+      }
+    ]
+  },
+  "genus": "EleFrog Pokémon",
+  "flavorText": "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity."
+}

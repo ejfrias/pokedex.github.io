@@ -1,0 +1,429 @@
+{
+  "id": 13,
+  "name": "weedle",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/13.png",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "height": 0.3,
+  "weight": 3.2,
+  "stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "specialAttack": 20,
+    "specialDefense": 20,
+    "speed": 50,
+    "total": 195
+  },
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "isHidden": false
+    },
+    {
+      "name": "run-away",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "fire",
+      "flying",
+      "psychic",
+      "rock"
+    ],
+    "resistances": [
+      "bug",
+      "fairy",
+      "fighting",
+      "grass",
+      "ground",
+      "poison"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "weedle",
+      "id": 13
+    },
+    {
+      "name": "kakuna",
+      "id": 14
+    },
+    {
+      "name": "beedrill",
+      "id": 15
+    }
+  ],
+  "locations": {
+    "platinum": [
+      "Eterna Forest Area",
+      "Sinnoh Route 204 South Towards Jubilife City",
+      "Sinnoh Route 204 North Towards Floaroma Town"
+    ],
+    "diamond": [
+      "Sinnoh Route 204 South Towards Jubilife City"
+    ],
+    "pearl": [
+      "Sinnoh Route 204 South Towards Jubilife City"
+    ],
+    "silver": [
+      "Johto Route 30 Area",
+      "Johto Route 31 Area",
+      "Ilex Forest Area",
+      "Johto Route 34 Area",
+      "Johto Route 35 Area",
+      "National Park Area",
+      "Johto Route 36 Area",
+      "Johto Route 37 Area",
+      "Johto Route 38 Area",
+      "Johto Route 39 Area",
+      "Lake Of Rage Area",
+      "Kanto Route 26 Area",
+      "Kanto Route 27 Area",
+      "Kanto Route 2 South Towards Viridian City",
+      "Azalea Town Area"
+    ],
+    "crystal": [
+      "Johto Route 30 Area",
+      "Johto Route 31 Area",
+      "Ilex Forest Area",
+      "National Park Area"
+    ],
+    "soulsilver": [
+      "Johto Route 30 Area",
+      "Johto Route 31 Area",
+      "Ilex Forest Area",
+      "National Park Area",
+      "Unknown All Bugs Area",
+      "Kanto Route 2 South Towards Viridian City",
+      "Kanto Route 2 North Towards Pewter City",
+      "Viridian Forest Area"
+    ],
+    "red": [
+      "Kanto Route 2 South Towards Viridian City",
+      "Kanto Route 24 Area",
+      "Kanto Route 25 Area",
+      "Viridian Forest Area"
+    ],
+    "firered": [
+      "Kanto Route 2 South Towards Viridian City",
+      "Kanto Route 24 Area",
+      "Kanto Route 25 Area",
+      "Viridian Forest Area",
+      "Pattern Bush Area"
+    ],
+    "leafgreen": [
+      "Kanto Route 2 South Towards Viridian City",
+      "Kanto Route 24 Area",
+      "Kanto Route 25 Area",
+      "Viridian Forest Area",
+      "Pattern Bush Area"
+    ],
+    "blue": [
+      "Kanto Route 25 Area",
+      "Viridian Forest Area"
+    ],
+    "x": [
+      "Kalos Route 2 Area",
+      "Santalune Forest Area"
+    ],
+    "y": [
+      "Santalune Forest Area"
+    ]
+  },
+  "movesByLevel": {
+    "gen-red-blue": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-yellow": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-gold-silver": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-crystal": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-ruby-sapphire": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-emerald": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-firered-leafgreen": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-diamond-pearl": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-platinum": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-heartgold-soulsilver": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-black-white": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-colosseum": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-xd": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-black-2-white-2": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-x-y": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-omega-ruby-alpha-sapphire": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 9,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 9,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-lets-go-pikachu-lets-go-eevee": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      }
+    ],
+    "gen-brilliant-diamond-and-shining-pearl": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 9,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ]
+  },
+  "movesByMachine": {},
+  "genus": "Hairy Bug Pokémon",
+  "flavorText": "Often found in\nforests, eating\nleaves. It has a sharp\nvenomous stinger\non its head."
+}

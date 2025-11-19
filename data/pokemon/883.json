@@ -1,0 +1,272 @@
+{
+  "id": 883,
+  "name": "arctovish",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/883.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/883.png",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "height": 2,
+  "weight": 175,
+  "stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 100,
+    "specialAttack": 80,
+    "specialDefense": 90,
+    "speed": 55,
+    "total": 505
+  },
+  "abilities": [
+    {
+      "name": "water-absorb",
+      "isHidden": false
+    },
+    {
+      "name": "ice-body",
+      "isHidden": false
+    },
+    {
+      "name": "slush-rush",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "electric",
+      "fighting",
+      "grass",
+      "rock"
+    ],
+    "resistances": [
+      "fire",
+      "ice",
+      "steel",
+      "water"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "arctovish",
+      "id": 883
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-sword-shield": [
+      {
+        "name": "water-gun",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/55/"
+      },
+      {
+        "name": "powder-snow",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/181/"
+      },
+      {
+        "name": "protect",
+        "level": 7,
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "icy-wind",
+        "level": 14,
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "ancient-power",
+        "level": 21,
+        "url": "https://pokeapi.co/api/v2/move/246/"
+      },
+      {
+        "name": "bite",
+        "level": 28,
+        "url": "https://pokeapi.co/api/v2/move/44/"
+      },
+      {
+        "name": "aurora-veil",
+        "level": 35,
+        "url": "https://pokeapi.co/api/v2/move/694/"
+      },
+      {
+        "name": "freeze-dry",
+        "level": 42,
+        "url": "https://pokeapi.co/api/v2/move/573/"
+      },
+      {
+        "name": "super-fang",
+        "level": 49,
+        "url": "https://pokeapi.co/api/v2/move/162/"
+      },
+      {
+        "name": "crunch",
+        "level": 56,
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "fishious-rend",
+        "level": 63,
+        "url": "https://pokeapi.co/api/v2/move/755/"
+      },
+      {
+        "name": "icicle-crash",
+        "level": 70,
+        "url": "https://pokeapi.co/api/v2/move/556/"
+      },
+      {
+        "name": "blizzard",
+        "level": 77,
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-sword-shield": [
+      {
+        "name": "body-slam",
+        "url": "https://pokeapi.co/api/v2/move/34/"
+      },
+      {
+        "name": "hydro-pump",
+        "url": "https://pokeapi.co/api/v2/move/56/"
+      },
+      {
+        "name": "surf",
+        "url": "https://pokeapi.co/api/v2/move/57/"
+      },
+      {
+        "name": "ice-beam",
+        "url": "https://pokeapi.co/api/v2/move/58/"
+      },
+      {
+        "name": "blizzard",
+        "url": "https://pokeapi.co/api/v2/move/59/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "waterfall",
+        "url": "https://pokeapi.co/api/v2/move/127/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "rock-slide",
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "snore",
+        "url": "https://pokeapi.co/api/v2/move/173/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "icy-wind",
+        "url": "https://pokeapi.co/api/v2/move/196/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "rain-dance",
+        "url": "https://pokeapi.co/api/v2/move/240/"
+      },
+      {
+        "name": "crunch",
+        "url": "https://pokeapi.co/api/v2/move/242/"
+      },
+      {
+        "name": "whirlpool",
+        "url": "https://pokeapi.co/api/v2/move/250/"
+      },
+      {
+        "name": "hail",
+        "url": "https://pokeapi.co/api/v2/move/258/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "dive",
+        "url": "https://pokeapi.co/api/v2/move/291/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "icicle-spear",
+        "url": "https://pokeapi.co/api/v2/move/333/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "rock-blast",
+        "url": "https://pokeapi.co/api/v2/move/350/"
+      },
+      {
+        "name": "brine",
+        "url": "https://pokeapi.co/api/v2/move/362/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "avalanche",
+        "url": "https://pokeapi.co/api/v2/move/419/"
+      },
+      {
+        "name": "ice-fang",
+        "url": "https://pokeapi.co/api/v2/move/423/"
+      },
+      {
+        "name": "zen-headbutt",
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "iron-head",
+        "url": "https://pokeapi.co/api/v2/move/442/"
+      },
+      {
+        "name": "stone-edge",
+        "url": "https://pokeapi.co/api/v2/move/444/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "psychic-fangs",
+        "url": "https://pokeapi.co/api/v2/move/706/"
+      },
+      {
+        "name": "liquidation",
+        "url": "https://pokeapi.co/api/v2/move/710/"
+      }
+    ]
+  },
+  "genus": "Fossil Pokémon",
+  "flavorText": "Though it’s able to capture prey by freezing its\nsurroundings, it has trouble eating the prey\nafterward because its mouth is on top of its head."
+}

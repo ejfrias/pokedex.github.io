@@ -1,0 +1,895 @@
+{
+  "id": 787,
+  "name": "tapu-bulu",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/787.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/787.png",
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "height": 1.9,
+  "weight": 45.5,
+  "stats": {
+    "hp": 70,
+    "attack": 130,
+    "defense": 115,
+    "specialAttack": 85,
+    "specialDefense": 95,
+    "speed": 75,
+    "total": 570
+  },
+  "abilities": [
+    {
+      "name": "grassy-surge",
+      "isHidden": false
+    },
+    {
+      "name": "telepathy",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "fire",
+      "flying",
+      "ice",
+      "poison",
+      "steel"
+    ],
+    "resistances": [
+      "bug",
+      "dark",
+      "electric",
+      "fighting",
+      "grass",
+      "ground",
+      "water"
+    ],
+    "immunities": [
+      "dragon"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "tapu-bulu",
+      "id": 787
+    }
+  ],
+  "locations": {
+    "sun": [
+      "Ruins Of Abundance Area"
+    ],
+    "moon": [
+      "Ruins Of Abundance Area"
+    ],
+    "ultra-sun": [
+      "Ruins Of Abundance Area"
+    ],
+    "ultra-moon": [
+      "Ruins Of Abundance Area"
+    ]
+  },
+  "movesByLevel": {
+    "gen-sun-moon": [
+      {
+        "name": "whirlwind",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/18/"
+      },
+      {
+        "name": "disable",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/50/"
+      },
+      {
+        "name": "withdraw",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/110/"
+      },
+      {
+        "name": "mean-look",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/212/"
+      },
+      {
+        "name": "superpower",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/276/"
+      },
+      {
+        "name": "wood-hammer",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/452/"
+      },
+      {
+        "name": "grassy-terrain",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      },
+      {
+        "name": "leafage",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/670/"
+      },
+      {
+        "name": "horn-attack",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/30/"
+      },
+      {
+        "name": "giga-drain",
+        "level": 14,
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "scary-face",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "leech-seed",
+        "level": 26,
+        "url": "https://pokeapi.co/api/v2/move/73/"
+      },
+      {
+        "name": "horn-leech",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/532/"
+      },
+      {
+        "name": "rototiller",
+        "level": 38,
+        "url": "https://pokeapi.co/api/v2/move/563/"
+      },
+      {
+        "name": "natures-madness",
+        "level": 43,
+        "url": "https://pokeapi.co/api/v2/move/717/"
+      },
+      {
+        "name": "zen-headbutt",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "megahorn",
+        "level": 53,
+        "url": "https://pokeapi.co/api/v2/move/224/"
+      },
+      {
+        "name": "skull-bash",
+        "level": 58,
+        "url": "https://pokeapi.co/api/v2/move/130/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "whirlwind",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/18/"
+      },
+      {
+        "name": "disable",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/50/"
+      },
+      {
+        "name": "withdraw",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/110/"
+      },
+      {
+        "name": "mean-look",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/212/"
+      },
+      {
+        "name": "superpower",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/276/"
+      },
+      {
+        "name": "wood-hammer",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/452/"
+      },
+      {
+        "name": "grassy-terrain",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      },
+      {
+        "name": "leafage",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/670/"
+      },
+      {
+        "name": "horn-attack",
+        "level": 8,
+        "url": "https://pokeapi.co/api/v2/move/30/"
+      },
+      {
+        "name": "giga-drain",
+        "level": 14,
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "scary-face",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "leech-seed",
+        "level": 26,
+        "url": "https://pokeapi.co/api/v2/move/73/"
+      },
+      {
+        "name": "horn-leech",
+        "level": 32,
+        "url": "https://pokeapi.co/api/v2/move/532/"
+      },
+      {
+        "name": "rototiller",
+        "level": 38,
+        "url": "https://pokeapi.co/api/v2/move/563/"
+      },
+      {
+        "name": "natures-madness",
+        "level": 43,
+        "url": "https://pokeapi.co/api/v2/move/717/"
+      },
+      {
+        "name": "zen-headbutt",
+        "level": 48,
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "megahorn",
+        "level": 53,
+        "url": "https://pokeapi.co/api/v2/move/224/"
+      },
+      {
+        "name": "skull-bash",
+        "level": 58,
+        "url": "https://pokeapi.co/api/v2/move/130/"
+      }
+    ],
+    "gen-sword-shield": [
+      {
+        "name": "rock-smash",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/249/"
+      },
+      {
+        "name": "leafage",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/670/"
+      },
+      {
+        "name": "withdraw",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/110/"
+      },
+      {
+        "name": "disable",
+        "level": 10,
+        "url": "https://pokeapi.co/api/v2/move/50/"
+      },
+      {
+        "name": "leech-seed",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/73/"
+      },
+      {
+        "name": "mega-drain",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/72/"
+      },
+      {
+        "name": "whirlwind",
+        "level": 25,
+        "url": "https://pokeapi.co/api/v2/move/18/"
+      },
+      {
+        "name": "horn-attack",
+        "level": 30,
+        "url": "https://pokeapi.co/api/v2/move/30/"
+      },
+      {
+        "name": "scary-face",
+        "level": 35,
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "horn-leech",
+        "level": 40,
+        "url": "https://pokeapi.co/api/v2/move/532/"
+      },
+      {
+        "name": "zen-headbutt",
+        "level": 45,
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "mean-look",
+        "level": 50,
+        "url": "https://pokeapi.co/api/v2/move/212/"
+      },
+      {
+        "name": "natures-madness",
+        "level": 55,
+        "url": "https://pokeapi.co/api/v2/move/717/"
+      },
+      {
+        "name": "wood-hammer",
+        "level": 60,
+        "url": "https://pokeapi.co/api/v2/move/452/"
+      },
+      {
+        "name": "megahorn",
+        "level": 65,
+        "url": "https://pokeapi.co/api/v2/move/224/"
+      },
+      {
+        "name": "skull-bash",
+        "level": 70,
+        "url": "https://pokeapi.co/api/v2/move/130/"
+      },
+      {
+        "name": "grassy-terrain",
+        "level": 75,
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-sword-shield": [
+      {
+        "name": "mega-punch",
+        "url": "https://pokeapi.co/api/v2/move/5/"
+      },
+      {
+        "name": "swords-dance",
+        "url": "https://pokeapi.co/api/v2/move/14/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "rock-slide",
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "snore",
+        "url": "https://pokeapi.co/api/v2/move/173/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "scary-face",
+        "url": "https://pokeapi.co/api/v2/move/184/"
+      },
+      {
+        "name": "giga-drain",
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "false-swipe",
+        "url": "https://pokeapi.co/api/v2/move/206/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "megahorn",
+        "url": "https://pokeapi.co/api/v2/move/224/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "taunt",
+        "url": "https://pokeapi.co/api/v2/move/269/"
+      },
+      {
+        "name": "superpower",
+        "url": "https://pokeapi.co/api/v2/move/276/"
+      },
+      {
+        "name": "revenge",
+        "url": "https://pokeapi.co/api/v2/move/279/"
+      },
+      {
+        "name": "brick-break",
+        "url": "https://pokeapi.co/api/v2/move/280/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "bullet-seed",
+        "url": "https://pokeapi.co/api/v2/move/331/"
+      },
+      {
+        "name": "iron-defense",
+        "url": "https://pokeapi.co/api/v2/move/334/"
+      },
+      {
+        "name": "bulk-up",
+        "url": "https://pokeapi.co/api/v2/move/339/"
+      },
+      {
+        "name": "calm-mind",
+        "url": "https://pokeapi.co/api/v2/move/347/"
+      },
+      {
+        "name": "close-combat",
+        "url": "https://pokeapi.co/api/v2/move/370/"
+      },
+      {
+        "name": "payback",
+        "url": "https://pokeapi.co/api/v2/move/371/"
+      },
+      {
+        "name": "fling",
+        "url": "https://pokeapi.co/api/v2/move/374/"
+      },
+      {
+        "name": "power-swap",
+        "url": "https://pokeapi.co/api/v2/move/384/"
+      },
+      {
+        "name": "guard-swap",
+        "url": "https://pokeapi.co/api/v2/move/385/"
+      },
+      {
+        "name": "seed-bomb",
+        "url": "https://pokeapi.co/api/v2/move/402/"
+      },
+      {
+        "name": "focus-blast",
+        "url": "https://pokeapi.co/api/v2/move/411/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "zen-headbutt",
+        "url": "https://pokeapi.co/api/v2/move/428/"
+      },
+      {
+        "name": "stone-edge",
+        "url": "https://pokeapi.co/api/v2/move/444/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "stored-power",
+        "url": "https://pokeapi.co/api/v2/move/500/"
+      },
+      {
+        "name": "work-up",
+        "url": "https://pokeapi.co/api/v2/move/526/"
+      },
+      {
+        "name": "snarl",
+        "url": "https://pokeapi.co/api/v2/move/555/"
+      },
+      {
+        "name": "grassy-terrain",
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "darkest-lariat",
+        "url": "https://pokeapi.co/api/v2/move/663/"
+      },
+      {
+        "name": "high-horsepower",
+        "url": "https://pokeapi.co/api/v2/move/667/"
+      },
+      {
+        "name": "smart-strike",
+        "url": "https://pokeapi.co/api/v2/move/684/"
+      },
+      {
+        "name": "brutal-swing",
+        "url": "https://pokeapi.co/api/v2/move/693/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "swords-dance",
+        "url": "https://pokeapi.co/api/v2/move/14/"
+      },
+      {
+        "name": "roar",
+        "url": "https://pokeapi.co/api/v2/move/46/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "rock-slide",
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "false-swipe",
+        "url": "https://pokeapi.co/api/v2/move/206/"
+      },
+      {
+        "name": "swagger",
+        "url": "https://pokeapi.co/api/v2/move/207/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "return",
+        "url": "https://pokeapi.co/api/v2/move/216/"
+      },
+      {
+        "name": "frustration",
+        "url": "https://pokeapi.co/api/v2/move/218/"
+      },
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "hidden-power",
+        "url": "https://pokeapi.co/api/v2/move/237/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "psych-up",
+        "url": "https://pokeapi.co/api/v2/move/244/"
+      },
+      {
+        "name": "torment",
+        "url": "https://pokeapi.co/api/v2/move/259/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "nature-power",
+        "url": "https://pokeapi.co/api/v2/move/267/"
+      },
+      {
+        "name": "taunt",
+        "url": "https://pokeapi.co/api/v2/move/269/"
+      },
+      {
+        "name": "brick-break",
+        "url": "https://pokeapi.co/api/v2/move/280/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "bulk-up",
+        "url": "https://pokeapi.co/api/v2/move/339/"
+      },
+      {
+        "name": "calm-mind",
+        "url": "https://pokeapi.co/api/v2/move/347/"
+      },
+      {
+        "name": "payback",
+        "url": "https://pokeapi.co/api/v2/move/371/"
+      },
+      {
+        "name": "fling",
+        "url": "https://pokeapi.co/api/v2/move/374/"
+      },
+      {
+        "name": "focus-blast",
+        "url": "https://pokeapi.co/api/v2/move/411/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "stone-edge",
+        "url": "https://pokeapi.co/api/v2/move/444/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "echoed-voice",
+        "url": "https://pokeapi.co/api/v2/move/497/"
+      },
+      {
+        "name": "work-up",
+        "url": "https://pokeapi.co/api/v2/move/526/"
+      },
+      {
+        "name": "snarl",
+        "url": "https://pokeapi.co/api/v2/move/555/"
+      },
+      {
+        "name": "confide",
+        "url": "https://pokeapi.co/api/v2/move/590/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "smart-strike",
+        "url": "https://pokeapi.co/api/v2/move/684/"
+      },
+      {
+        "name": "brutal-swing",
+        "url": "https://pokeapi.co/api/v2/move/693/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "swords-dance",
+        "url": "https://pokeapi.co/api/v2/move/14/"
+      },
+      {
+        "name": "roar",
+        "url": "https://pokeapi.co/api/v2/move/46/"
+      },
+      {
+        "name": "hyper-beam",
+        "url": "https://pokeapi.co/api/v2/move/63/"
+      },
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "toxic",
+        "url": "https://pokeapi.co/api/v2/move/92/"
+      },
+      {
+        "name": "light-screen",
+        "url": "https://pokeapi.co/api/v2/move/113/"
+      },
+      {
+        "name": "reflect",
+        "url": "https://pokeapi.co/api/v2/move/115/"
+      },
+      {
+        "name": "rock-slide",
+        "url": "https://pokeapi.co/api/v2/move/157/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "false-swipe",
+        "url": "https://pokeapi.co/api/v2/move/206/"
+      },
+      {
+        "name": "swagger",
+        "url": "https://pokeapi.co/api/v2/move/207/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "return",
+        "url": "https://pokeapi.co/api/v2/move/216/"
+      },
+      {
+        "name": "frustration",
+        "url": "https://pokeapi.co/api/v2/move/218/"
+      },
+      {
+        "name": "safeguard",
+        "url": "https://pokeapi.co/api/v2/move/219/"
+      },
+      {
+        "name": "hidden-power",
+        "url": "https://pokeapi.co/api/v2/move/237/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "psych-up",
+        "url": "https://pokeapi.co/api/v2/move/244/"
+      },
+      {
+        "name": "torment",
+        "url": "https://pokeapi.co/api/v2/move/259/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "nature-power",
+        "url": "https://pokeapi.co/api/v2/move/267/"
+      },
+      {
+        "name": "taunt",
+        "url": "https://pokeapi.co/api/v2/move/269/"
+      },
+      {
+        "name": "brick-break",
+        "url": "https://pokeapi.co/api/v2/move/280/"
+      },
+      {
+        "name": "rock-tomb",
+        "url": "https://pokeapi.co/api/v2/move/317/"
+      },
+      {
+        "name": "bulk-up",
+        "url": "https://pokeapi.co/api/v2/move/339/"
+      },
+      {
+        "name": "calm-mind",
+        "url": "https://pokeapi.co/api/v2/move/347/"
+      },
+      {
+        "name": "payback",
+        "url": "https://pokeapi.co/api/v2/move/371/"
+      },
+      {
+        "name": "fling",
+        "url": "https://pokeapi.co/api/v2/move/374/"
+      },
+      {
+        "name": "focus-blast",
+        "url": "https://pokeapi.co/api/v2/move/411/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "giga-impact",
+        "url": "https://pokeapi.co/api/v2/move/416/"
+      },
+      {
+        "name": "stone-edge",
+        "url": "https://pokeapi.co/api/v2/move/444/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "round",
+        "url": "https://pokeapi.co/api/v2/move/496/"
+      },
+      {
+        "name": "echoed-voice",
+        "url": "https://pokeapi.co/api/v2/move/497/"
+      },
+      {
+        "name": "work-up",
+        "url": "https://pokeapi.co/api/v2/move/526/"
+      },
+      {
+        "name": "snarl",
+        "url": "https://pokeapi.co/api/v2/move/555/"
+      },
+      {
+        "name": "confide",
+        "url": "https://pokeapi.co/api/v2/move/590/"
+      },
+      {
+        "name": "dazzling-gleam",
+        "url": "https://pokeapi.co/api/v2/move/605/"
+      },
+      {
+        "name": "smart-strike",
+        "url": "https://pokeapi.co/api/v2/move/684/"
+      },
+      {
+        "name": "brutal-swing",
+        "url": "https://pokeapi.co/api/v2/move/693/"
+      }
+    ]
+  },
+  "genus": "Land Spirit Pokémon",
+  "flavorText": "It pulls large trees up by the roots and swings\nthem around. It causes vegetation to grow,\nand then it absorbs energy from the growth."
+}

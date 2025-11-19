@@ -1,0 +1,414 @@
+{
+  "id": 265,
+  "name": "wurmple",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/265.png",
+  "types": [
+    "bug"
+  ],
+  "height": 0.3,
+  "weight": 3.6,
+  "stats": {
+    "hp": 45,
+    "attack": 45,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 30,
+    "speed": 20,
+    "total": 195
+  },
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "isHidden": false
+    },
+    {
+      "name": "run-away",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "fire",
+      "flying",
+      "rock"
+    ],
+    "resistances": [
+      "fighting",
+      "grass",
+      "ground"
+    ],
+    "immunities": []
+  },
+  "evolutionChain": [
+    {
+      "name": "wurmple",
+      "id": 265
+    },
+    {
+      "name": "silcoon",
+      "id": 266
+    },
+    {
+      "name": "beautifly",
+      "id": 267
+    },
+    {
+      "name": "cascoon",
+      "id": 268
+    },
+    {
+      "name": "dustox",
+      "id": 269
+    }
+  ],
+  "locations": {
+    "diamond": [
+      "Eterna Forest Area"
+    ],
+    "pearl": [
+      "Eterna Forest Area"
+    ],
+    "platinum": [
+      "Eterna Forest Area",
+      "Sinnoh Route 204 South Towards Jubilife City",
+      "Sinnoh Route 204 North Towards Floaroma Town",
+      "Sinnoh Route 205 East Towards Eterna City"
+    ],
+    "ruby": [
+      "Petalburg Woods Area",
+      "Hoenn Route 101 Area",
+      "Hoenn Route 102 Area",
+      "Hoenn Route 104 Area"
+    ],
+    "sapphire": [
+      "Petalburg Woods Area",
+      "Hoenn Route 101 Area",
+      "Hoenn Route 102 Area",
+      "Hoenn Route 104 Area"
+    ],
+    "emerald": [
+      "Petalburg Woods Area",
+      "Hoenn Route 101 Area",
+      "Hoenn Route 102 Area",
+      "Hoenn Route 104 Area"
+    ]
+  },
+  "movesByLevel": {
+    "gen-ruby-sapphire": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      }
+    ],
+    "gen-emerald": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      }
+    ],
+    "gen-firered-leafgreen": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      }
+    ],
+    "gen-diamond-pearl": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      }
+    ],
+    "gen-platinum": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-heartgold-soulsilver": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-black-white": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-colosseum": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      }
+    ],
+    "gen-xd": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      }
+    ],
+    "gen-black-2-white-2": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-x-y": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-omega-ruby-alpha-sapphire": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-sun-moon": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-ultra-sun-ultra-moon": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-brilliant-diamond-and-shining-pearl": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "string-shot",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/81/"
+      },
+      {
+        "name": "poison-sting",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "bug-bite",
+        "level": 15,
+        "url": "https://pokeapi.co/api/v2/move/450/"
+      }
+    ],
+    "gen-legends-arceus": [
+      {
+        "name": "poison-sting",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/40/"
+      },
+      {
+        "name": "tackle",
+        "level": 6,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      }
+    ]
+  },
+  "movesByMachine": {},
+  "genus": "Worm Pokémon",
+  "flavorText": "Using the spikes on its rear end,  \nWURMPLE peels the bark off trees and\nfeeds on the sap that oozes out. This POKéMON’s feet are tipped with\nsuction pads that allow it to cling to\nglass without slipping."
+}

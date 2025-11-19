@@ -1,0 +1,236 @@
+{
+  "id": 929,
+  "name": "dolliv",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/929.png",
+  "imageShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/929.png",
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "height": 0.6,
+  "weight": 11.9,
+  "stats": {
+    "hp": 52,
+    "attack": 53,
+    "defense": 60,
+    "specialAttack": 78,
+    "specialDefense": 78,
+    "speed": 33,
+    "total": 354
+  },
+  "abilities": [
+    {
+      "name": "early-bird",
+      "isHidden": false
+    },
+    {
+      "name": "harvest",
+      "isHidden": true
+    }
+  ],
+  "typeEffectiveness": {
+    "weaknesses": [
+      "bug",
+      "fighting",
+      "fire",
+      "flying",
+      "ice",
+      "poison"
+    ],
+    "resistances": [
+      "electric",
+      "grass",
+      "ground",
+      "water"
+    ],
+    "immunities": [
+      "ghost"
+    ]
+  },
+  "evolutionChain": [
+    {
+      "name": "smoliv",
+      "id": 928
+    },
+    {
+      "name": "dolliv",
+      "id": 929
+    },
+    {
+      "name": "arboliva",
+      "id": 930
+    }
+  ],
+  "locations": {},
+  "movesByLevel": {
+    "gen-scarlet-violet": [
+      {
+        "name": "tackle",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/33/"
+      },
+      {
+        "name": "sweet-scent",
+        "level": 1,
+        "url": "https://pokeapi.co/api/v2/move/230/"
+      },
+      {
+        "name": "absorb",
+        "level": 5,
+        "url": "https://pokeapi.co/api/v2/move/71/"
+      },
+      {
+        "name": "growth",
+        "level": 7,
+        "url": "https://pokeapi.co/api/v2/move/74/"
+      },
+      {
+        "name": "razor-leaf",
+        "level": 10,
+        "url": "https://pokeapi.co/api/v2/move/75/"
+      },
+      {
+        "name": "helping-hand",
+        "level": 13,
+        "url": "https://pokeapi.co/api/v2/move/270/"
+      },
+      {
+        "name": "flail",
+        "level": 16,
+        "url": "https://pokeapi.co/api/v2/move/175/"
+      },
+      {
+        "name": "mega-drain",
+        "level": 20,
+        "url": "https://pokeapi.co/api/v2/move/72/"
+      },
+      {
+        "name": "grassy-terrain",
+        "level": 23,
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      },
+      {
+        "name": "seed-bomb",
+        "level": 29,
+        "url": "https://pokeapi.co/api/v2/move/402/"
+      },
+      {
+        "name": "energy-ball",
+        "level": 34,
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "leech-seed",
+        "level": 37,
+        "url": "https://pokeapi.co/api/v2/move/73/"
+      },
+      {
+        "name": "terrain-pulse",
+        "level": 42,
+        "url": "https://pokeapi.co/api/v2/move/805/"
+      }
+    ]
+  },
+  "movesByMachine": {
+    "gen-scarlet-violet": [
+      {
+        "name": "solar-beam",
+        "url": "https://pokeapi.co/api/v2/move/76/"
+      },
+      {
+        "name": "swift",
+        "url": "https://pokeapi.co/api/v2/move/129/"
+      },
+      {
+        "name": "rest",
+        "url": "https://pokeapi.co/api/v2/move/156/"
+      },
+      {
+        "name": "substitute",
+        "url": "https://pokeapi.co/api/v2/move/164/"
+      },
+      {
+        "name": "protect",
+        "url": "https://pokeapi.co/api/v2/move/182/"
+      },
+      {
+        "name": "giga-drain",
+        "url": "https://pokeapi.co/api/v2/move/202/"
+      },
+      {
+        "name": "endure",
+        "url": "https://pokeapi.co/api/v2/move/203/"
+      },
+      {
+        "name": "charm",
+        "url": "https://pokeapi.co/api/v2/move/204/"
+      },
+      {
+        "name": "sleep-talk",
+        "url": "https://pokeapi.co/api/v2/move/214/"
+      },
+      {
+        "name": "sunny-day",
+        "url": "https://pokeapi.co/api/v2/move/241/"
+      },
+      {
+        "name": "facade",
+        "url": "https://pokeapi.co/api/v2/move/263/"
+      },
+      {
+        "name": "helping-hand",
+        "url": "https://pokeapi.co/api/v2/move/270/"
+      },
+      {
+        "name": "weather-ball",
+        "url": "https://pokeapi.co/api/v2/move/311/"
+      },
+      {
+        "name": "bullet-seed",
+        "url": "https://pokeapi.co/api/v2/move/331/"
+      },
+      {
+        "name": "magical-leaf",
+        "url": "https://pokeapi.co/api/v2/move/345/"
+      },
+      {
+        "name": "seed-bomb",
+        "url": "https://pokeapi.co/api/v2/move/402/"
+      },
+      {
+        "name": "energy-ball",
+        "url": "https://pokeapi.co/api/v2/move/412/"
+      },
+      {
+        "name": "earth-power",
+        "url": "https://pokeapi.co/api/v2/move/414/"
+      },
+      {
+        "name": "leaf-storm",
+        "url": "https://pokeapi.co/api/v2/move/437/"
+      },
+      {
+        "name": "grass-knot",
+        "url": "https://pokeapi.co/api/v2/move/447/"
+      },
+      {
+        "name": "grassy-terrain",
+        "url": "https://pokeapi.co/api/v2/move/580/"
+      },
+      {
+        "name": "solar-blade",
+        "url": "https://pokeapi.co/api/v2/move/669/"
+      },
+      {
+        "name": "tera-blast",
+        "url": "https://pokeapi.co/api/v2/move/851/"
+      },
+      {
+        "name": "trailblaze",
+        "url": "https://pokeapi.co/api/v2/move/885/"
+      }
+    ]
+  },
+  "genus": "Olive Pokémon",
+  "flavorText": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone."
+}
