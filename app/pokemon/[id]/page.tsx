@@ -93,10 +93,9 @@ export async function generateStaticParams() {
       name: string;
     }>;
 
-    // Generate params for both ID and name
+    // Generate params for name only (not ID to reduce file size)
     const params: Array<{ id: string }> = [];
     index.forEach((pokemon) => {
-      params.push({ id: pokemon.id.toString() });
       params.push({ id: pokemon.name.toLowerCase() });
     });
 
@@ -108,7 +107,7 @@ export async function generateStaticParams() {
 
 // Force static generation at build time
 export const dynamic = "force-static";
-export const dynamicParams = true; // Allow dynamic params for Pokemon not in index
+export const dynamicParams = false; // Static export requires all params pre-generated
 
 export default async function PokemonPage({ params }: PageProps) {
   const { id } = await params;

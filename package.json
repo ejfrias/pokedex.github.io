@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && cp -r data out/data",
     "start": "next start",
     "lint": "eslint",
     "crawl": "node scripts/crawl-pokemon.js",
