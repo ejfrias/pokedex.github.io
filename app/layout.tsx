@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Pokédex",
   description:
     "A comprehensive Pokédex app with detailed information about all Pokémon",
-  manifest: "/manifest.json",
+  manifest: "/pokedex/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",

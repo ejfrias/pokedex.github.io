@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp -r data out/data",
+    "build": "next build && node scripts/restructure-output.js && cp -r data out/data && touch out/.nojekyll",
     "start": "next start",
     "lint": "eslint",
     "crawl": "node scripts/crawl-pokemon.js",

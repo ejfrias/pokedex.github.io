@@ -6,7 +6,7 @@ export function PWARegistration() {
   useEffect(() => {
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker
-        .register("/sw.js")
+        .register("/pokedex/sw.js")
         .then((registration) => {
           console.log("Service Worker registered:", registration);
         })

@@ -1,36 +1,11 @@
 const CACHE_NAME = "pokedex-v1";
-const urlsToCache = ["/", "/manifest.json"];
 
 // Install service worker
 self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(urlsToCache))
-  );
+  self.skipWaiting();
 });
 
-// Fetch from cache, falling back to network
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches.match(event.request).then((response) => {
-      if (response) {
-        return response;
-      }
-      return fetch(event.request).then((response) => {
-        // Cache successful responses
-        if (!response || response.status !== 200 || response.type !== "basic") {
-          return response;
-        }
-        const responseToCache = response.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseToCache);
-        });
-        return response;
-      });
-    })
-  );
-});
-
-// Clean up old caches
+// Activate service worker
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
@@ -42,5 +17,32 @@ self.addEventListener("activate", (event) => {
         })
       );
     })
+  );
+  return self.clients.claim();
+});
+
+// Network first, fallback to cache
+self.addEventListener("fetch", (event) => {
+  event.respondWith(
+    fetch(event.request)
+      .then((response) => {
+        // Only cache successful responses for same-origin requests
+        if (
+          response.status === 200 &&
+          event.request.url.startsWith(self.location.origin)
+        ) {
+          const responseToCache = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache).catch(() => {
+              // Silently ignore cache errors
+            });
+          });
+        }
+        return response;
+      })
+      .catch(() => {
+        // If network fails, try cache
+        return caches.match(event.request);
+      })
   );
 });
