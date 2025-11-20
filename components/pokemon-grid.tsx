@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
 import { Input } from "@/components/ui/input";
 import { PokemonIndex } from "@/types/pokemon";
 import { PokemonCard } from "./pokemon-card";
@@ -122,44 +121,23 @@ const CLASSIFICATION_LABELS: Record<string, string> = {
 };
 
 export function PokemonGrid({ pokemon }: PokemonGridProps) {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-
-  // Initialize state from URL params
-  const [search, setSearch] = useState(searchParams.get("search") ?? "");
-  const [selectedTypes, setSelectedTypes] = useState<string[]>(
-    searchParams.get("types")?.split(",").filter(Boolean) ?? []
-  );
-  const [selectedGeneration, setSelectedGeneration] = useState<string>(
-    searchParams.get("gen") ?? ""
-  );
-  const [selectedClassification, setSelectedClassification] = useState<string>(
-    searchParams.get("class") ?? ""
-  );
-  const [sortBy, setSortBy] = useState<"id" | "name">(
-    (searchParams.get("sort") as "id" | "name") ?? "id"
-  );
+  // Initialize state
+  const [search, setSearch] = useState("");
+  const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const [selectedGeneration, setSelectedGeneration] = useState<string>("");
+  const [selectedClassification, setSelectedClassification] =
+    useState<string>("");
+  const [sortBy, setSortBy] = useState<"id" | "name">("id");
   const [showFilters, setShowFilters] = useState(false);
+  const [debouncedSearch, setDebouncedSearch] = useState(search);
 
-  // Update URL when filters change
+  // Debounce search input for better performance
   useEffect(() => {
-    const params = new URLSearchParams();
-    if (search) params.set("search", search);
-    if (selectedTypes.length > 0) params.set("types", selectedTypes.join(","));
-    if (selectedGeneration) params.set("gen", selectedGeneration);
-    if (selectedClassification) params.set("class", selectedClassification);
-    if (sortBy !== "id") params.set("sort", sortBy);
-
-    const newUrl = params.toString() ? `/?${params.toString()}` : "/";
-    router.replace(newUrl, { scroll: false });
-  }, [
-    search,
-    selectedTypes,
-    selectedGeneration,
-    selectedClassification,
-    sortBy,
-    router,
-  ]);
+    const timer = setTimeout(() => {
+      setDebouncedSearch(search);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [search]);
 
   const toggleType = (type: string) => {
     setSelectedTypes((prev) =>
@@ -206,9 +184,9 @@ export function PokemonGrid({ pokemon }: PokemonGridProps) {
       );
     }
 
-    // Apply search filter
-    if (search) {
-      const searchLower = search.toLowerCase().trim();
+    // Apply search filter (using debounced value)
+    if (debouncedSearch) {
+      const searchLower = debouncedSearch.toLowerCase().trim();
 
       // Direct matches
       const exactMatches = result.filter(
@@ -247,7 +225,7 @@ export function PokemonGrid({ pokemon }: PokemonGridProps) {
 
     return { filteredPokemon: result, suggestions: [] };
   }, [
-    search,
+    debouncedSearch,
     pokemon,
     selectedTypes,
     selectedGeneration,

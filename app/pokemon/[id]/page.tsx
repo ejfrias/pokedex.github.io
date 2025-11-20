@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link";
 import { Pokemon } from "@/types/pokemon";
 import { TypeBadge } from "@/components/type-badge";
 import { StatsDisplay } from "@/components/stats-display";
@@ -209,8 +208,8 @@ export default async function PokemonPage({ params }: PageProps) {
                     const evoPaddedId = String(evo.id).padStart(4, "0");
                     return (
                       <div key={evo.id} className="flex items-center gap-3">
-                        <Link
-                          href={`/pokemon/${evo.name}`}
+                        <a
+                          href={`/pokedex/pokemon/${evo.name}`}
                           className="flex flex-col items-center gap-1 hover:opacity-75 transition-opacity cursor-pointer"
                         >
                           <div
@@ -238,7 +237,7 @@ export default async function PokemonPage({ params }: PageProps) {
                               />
                             ))}
                           </div>
-                        </Link>
+                        </a>
                         {index < pokemon.evolutionChain.length - 1 && (
                           <div className="flex flex-col items-center gap-1">
                             <div className="text-lg text-muted-foreground relative -top-8">

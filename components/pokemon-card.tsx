@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { PokemonIndex } from "@/types/pokemon";
 import { TypeBadge } from "./type-badge";
@@ -14,7 +13,7 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
   const typeGradient = getTypeBackgroundColor(pokemon.types);
 
   return (
-    <Link href={`/pokemon/${pokemon.name}`} className="block h-full">
+    <a href={`/pokedex/pokemon/${pokemon.name}`} className="block h-full">
       <Card className="group hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer overflow-hidden h-full p-0 border-2 hover:border-primary/20">
         <CardContent
           className={`p-4 sm:p-5 flex flex-col h-full bg-linear-to-br ${typeGradient}`}
@@ -47,6 +46,6 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
           </div>
         </CardContent>
       </Card>
-    </Link>
+    </a>
   );
 }
