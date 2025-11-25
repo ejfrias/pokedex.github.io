@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
   output: "export",
-  // Remove basePath for local development
-  // For GitHub Pages, use: basePath: "/pokedex"
-  basePath: "/pokedex",
+  basePath: isProd ? "/pokedex" : "",
+  assetPrefix: isProd ? "/pokedex" : "",
   images: {
     unoptimized: true,
   },

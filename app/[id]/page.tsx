@@ -4,6 +4,7 @@ import { Pokemon } from "@/types/pokemon";
 import { TypeBadge } from "@/components/type-badge";
 import { StatsDisplay } from "@/components/stats-display";
 import { BackButton } from "@/components/back-button";
+import { PokemonSearch } from "@/components/pokemon-search";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Ruler, Weight } from "lucide-react";
@@ -11,6 +12,7 @@ import {
   getStrongAgainst,
   getTypeBackgroundColor,
 } from "@/lib/type-effectiveness";
+import { basePath } from "@/lib/config";
 
 interface PageProps {
   params: Promise<{
@@ -80,6 +82,18 @@ async function getPokemonTypes(id: number): Promise<string[]> {
   }
 }
 
+async function getPokemonList(): Promise<Array<{ id: number; name: string }>> {
+  try {
+    const fs = await import("fs/promises");
+    const path = await import("path");
+    const indexPath = path.join(process.cwd(), "data", "index.json");
+    const indexContent = await fs.readFile(indexPath, "utf-8");
+    return JSON.parse(indexContent);
+  } catch {
+    return [];
+  }
+}
+
 export async function generateStaticParams() {
   // Generate paths for both ID and name
   try {
@@ -125,13 +139,21 @@ export default async function PokemonPage({ params }: PageProps) {
     pokemon.evolutionChain.map((evo) => getPokemonTypes(evo.id))
   );
 
+  // Get pokemon list for search
+  const pokemonList = await getPokemonList();
+
   return (
     <div className="min-h-screen bg-linear-to-b from-background to-muted/20">
-      <div className="container mx-auto px-4 py-8 max-w-6xl">
-        <BackButton />
+      <div className="container mx-auto px-4 py-6 sm:py-8 max-w-6xl">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
+          <BackButton />
+          <div className="w-full sm:max-w-md">
+            <PokemonSearch pokemonList={pokemonList} />
+          </div>
+        </div>
 
         {/* Header Section */}
-        <div className="grid md:grid-cols-2 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-8 md:items-start">
           {/* Left: Image */}
           <Card className="p-0">
             <CardContent className="p-0">
@@ -200,20 +222,21 @@ export default async function PokemonPage({ params }: PageProps) {
                 <h3 className="font-semibold mb-3 text-sm text-muted-foreground">
                   Evolution Chain
                 </h3>
-                <div className="flex items-center gap-3 flex-wrap">
+                <div className="flex items-center justify-between gap-2 w-full">
                   {pokemon.evolutionChain.map((evo, index) => {
                     const evoTypeGradient = getTypeBackgroundColor(
                       evolutionTypes[index] || []
                     );
                     const evoPaddedId = String(evo.id).padStart(4, "0");
                     return (
-                      <div key={evo.id} className="flex items-center gap-3">
+                      <>
                         <a
-                          href={`/pokedex/pokemon/${evo.name}`}
+                          key={evo.id}
+                          href={`${basePath}/${evo.name}`}
                           className="flex flex-col items-center gap-1 hover:opacity-75 transition-opacity cursor-pointer"
                         >
                           <div
-                            className={`w-20 h-20 relative bg-linear-to-br ${evoTypeGradient} rounded-lg`}
+                            className={`w-20 h-20 sm:w-24 sm:h-24 relative bg-linear-to-br ${evoTypeGradient} rounded-lg shrink-0`}
                           >
                             <Image
                               src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${evo.id}.png`}
@@ -225,10 +248,10 @@ export default async function PokemonPage({ params }: PageProps) {
                           <div className="text-xs text-muted-foreground font-mono">
                             #{evoPaddedId}
                           </div>
-                          <span className="text-sm font-semibold capitalize text-primary">
+                          <span className="text-sm font-semibold capitalize text-primary text-center">
                             {evo.name}
                           </span>
-                          <div className="flex gap-1">
+                          <div className="flex gap-1 flex-wrap justify-center">
                             {evolutionTypes[index]?.map((type) => (
                               <TypeBadge
                                 key={type}
@@ -239,19 +262,18 @@ export default async function PokemonPage({ params }: PageProps) {
                           </div>
                         </a>
                         {index < pokemon.evolutionChain.length - 1 && (
-                          <div className="flex flex-col items-center gap-1">
-                            <div className="text-lg text-muted-foreground relative -top-8">
+                          <div className="flex flex-col items-center gap-1 shrink-0 relative -top-8">
+                            <div className="text-2xl text-muted-foreground">
                               →
                             </div>
                             {pokemon.evolutionChain[index + 1].minLevel && (
-                              <div className="text-xs text-muted-foreground">
-                                (Level{" "}
-                                {pokemon.evolutionChain[index + 1].minLevel})
+                              <div className="text-xs text-muted-foreground whitespace-nowrap">
+                                Lv. {pokemon.evolutionChain[index + 1].minLevel}
                               </div>
                             )}
                           </div>
                         )}
-                      </div>
+                      </>
                     );
                   })}
                 </div>
@@ -340,17 +362,19 @@ export default async function PokemonPage({ params }: PageProps) {
           </CardHeader>
           <CardContent>
             <Tabs defaultValue={generations[0]}>
-              <TabsList>
-                {generations.map((gen) => (
-                  <TabsTrigger
-                    key={gen}
-                    value={gen}
-                    className="capitalize cursor-pointer"
-                  >
-                    {gen.replace(/gen-/g, "").replace(/-/g, " ")}
-                  </TabsTrigger>
-                ))}
-              </TabsList>
+              <div className="overflow-hidden overflow-x-auto -mx-6 px-6">
+                <TabsList className="w-max">
+                  {generations.map((gen) => (
+                    <TabsTrigger
+                      key={gen}
+                      value={gen}
+                      className="capitalize cursor-pointer"
+                    >
+                      {gen.replace(/gen-/g, "").replace(/-/g, " ")}
+                    </TabsTrigger>
+                  ))}
+                </TabsList>
+              </div>
 
               {generations.map((gen) => {
                 const levelMoves = pokemon.movesByLevel[gen] || [];

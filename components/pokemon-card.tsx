@@ -3,6 +3,7 @@ import { PokemonIndex } from "@/types/pokemon";
 import { TypeBadge } from "./type-badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { getTypeBackgroundColor } from "@/lib/type-effectiveness";
+import { basePath } from "@/lib/config";
 
 interface PokemonCardProps {
   readonly pokemon: PokemonIndex;
@@ -13,7 +14,7 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
   const typeGradient = getTypeBackgroundColor(pokemon.types);
 
   return (
-    <a href={`/pokedex/pokemon/${pokemon.name}`} className="block h-full">
+    <a href={`${basePath}/${pokemon.name}`} className="block h-full">
       <Card className="group hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer overflow-hidden h-full p-0 border-2 hover:border-primary/20">
         <CardContent
           className={`p-4 sm:p-5 flex flex-col h-full bg-linear-to-br ${typeGradient}`}
